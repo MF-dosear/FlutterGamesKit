@@ -1,0 +1,91 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Flutter (1.0.0)
+  - flutter_boost (0.0.2):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - flutter_boost
+    - path_provider_foundation
+    - share_plus
+    - shared_preferences_foundation
+    - url_launcher_ios
+    - webview_flutter_wkwebview
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - share_plus (0.0.1):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - SVProgressHUD (2.2.5)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - AFNetworking
+  - Flutter (from `../module/.ios/Flutter`)
+  - flutter_boost (from `../module/.ios/.symlinks/plugins/flutter_boost/ios`)
+  - FlutterPluginRegistrant (from `../module/.ios/Flutter/FlutterPluginRegistrant`)
+  - path_provider_foundation (from `../module/.ios/.symlinks/plugins/path_provider_foundation/ios`)
+  - share_plus (from `../module/.ios/.symlinks/plugins/share_plus/ios`)
+  - shared_preferences_foundation (from `../module/.ios/.symlinks/plugins/shared_preferences_foundation/ios`)
+  - SVProgressHUD
+  - url_launcher_ios (from `../module/.ios/.symlinks/plugins/url_launcher_ios/ios`)
+  - webview_flutter_wkwebview (from `../module/.ios/.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../module/.ios/Flutter"
+  flutter_boost:
+    :path: "../module/.ios/.symlinks/plugins/flutter_boost/ios"
+  FlutterPluginRegistrant:
+    :path: "../module/.ios/Flutter/FlutterPluginRegistrant"
+  path_provider_foundation:
+    :path: "../module/.ios/.symlinks/plugins/path_provider_foundation/ios"
+  share_plus:
+    :path: "../module/.ios/.symlinks/plugins/share_plus/ios"
+  shared_preferences_foundation:
+    :path: "../module/.ios/.symlinks/plugins/shared_preferences_foundation/ios"
+  url_launcher_ios:
+    :path: "../module/.ios/.symlinks/plugins/url_launcher_ios/ios"
+  webview_flutter_wkwebview:
+    :path: "../module/.ios/.symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_boost: 6a73c54e5654df180c2cc379045b8cba9746fc8a
+  FlutterPluginRegistrant: ecf096a278d336e6779e1b5dc74f2fbe440ea26e
+  path_provider_foundation: 37748e03f12783f9de2cb2c4eadfaa25fe6d4852
+  share_plus: 056a1e8ac890df3e33cb503afffaf1e9b4fbae68
+  shared_preferences_foundation: 297b3ebca31b34ec92be11acd7fb0ba932c822ca
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  url_launcher_ios: ae1517e5e344f5544fb090b079e11f399dfbe4d2
+  webview_flutter_wkwebview: b7e70ef1ddded7e69c796c7390ee74180182971f
+
+PODFILE CHECKSUM: 6722439b8e3ab4d93a4cc9d4044db46ac67dd041
+
+COCOAPODS: 1.11.3
