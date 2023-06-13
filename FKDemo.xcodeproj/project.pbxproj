@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		915D57F02A1CCB7C0046C50F /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57B52A1CC8580046C50F /* App.xcframework */; };
+		915D57F12A1CCB7C0046C50F /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57B52A1CC8580046C50F /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		915D57F22A1CCB7F0046C50F /* flutter_boost.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57B02A1CC8520046C50F /* flutter_boost.xcframework */; };
+		915D57F32A1CCB7F0046C50F /* flutter_boost.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57B02A1CC8520046C50F /* flutter_boost.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		915D57F42A1CCB810046C50F /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57B22A1CC8560046C50F /* Flutter.xcframework */; };
+		915D57F52A1CCB810046C50F /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57B22A1CC8560046C50F /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		915D57F62A1CCB850046C50F /* path_provider_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57AF2A1CC8510046C50F /* path_provider_foundation.xcframework */; };
+		915D57F72A1CCB850046C50F /* path_provider_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57AF2A1CC8510046C50F /* path_provider_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		915D57F82A1CCB860046C50F /* share_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57B12A1CC8520046C50F /* share_plus.xcframework */; };
+		915D57F92A1CCB870046C50F /* share_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57B12A1CC8520046C50F /* share_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		915D57FA2A1CCB8B0046C50F /* shared_preferences_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57B42A1CC8570046C50F /* shared_preferences_foundation.xcframework */; };
+		915D57FB2A1CCB8B0046C50F /* shared_preferences_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57B42A1CC8570046C50F /* shared_preferences_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		915D57FC2A1CCB8C0046C50F /* SVProgressHUD.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57B72A1CC85A0046C50F /* SVProgressHUD.xcframework */; };
+		915D57FD2A1CCB8C0046C50F /* SVProgressHUD.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57B72A1CC85A0046C50F /* SVProgressHUD.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		915D57FE2A1CCB8F0046C50F /* webview_flutter_wkwebview.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57B32A1CC8560046C50F /* webview_flutter_wkwebview.xcframework */; };
+		915D57FF2A1CCB900046C50F /* webview_flutter_wkwebview.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57B32A1CC8560046C50F /* webview_flutter_wkwebview.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		915D58002A1CCB910046C50F /* url_launcher_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57B62A1CC8590046C50F /* url_launcher_ios.xcframework */; };
+		915D58012A1CCB910046C50F /* url_launcher_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 915D57B62A1CC8590046C50F /* url_launcher_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91D949592977FD3800552471 /* FlutterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D949582977FD3800552471 /* FlutterVC.m */; };
+		91DA7EDE2A1DB93C00AB6764 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DA7EDD2A1DB93B00AB6764 /* AdSupport.framework */; };
+		91E96F8A2A3816BA00C27BCE /* libCocoaLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E96F6F2A3816B900C27BCE /* libCocoaLumberjack.a */; };
+		91E96F8B2A3816BA00C27BCE /* libCocoaHTTPServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E96F712A3816B900C27BCE /* libCocoaHTTPServer.a */; };
+		91E96F8C2A3816BA00C27BCE /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 91E96F752A3816B900C27BCE /* unzip.c */; };
+		91E96F8D2A3816BA00C27BCE /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 91E96F762A3816B900C27BCE /* zip.c */; };
+		91E96F8E2A3816BA00C27BCE /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 91E96F772A3816B900C27BCE /* ioapi.c */; };
+		91E96F8F2A3816BA00C27BCE /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 91E96F782A3816B900C27BCE /* mztools.c */; };
+		91E96F902A3816BA00C27BCE /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 91E96F7E2A3816B900C27BCE /* ZipArchive.mm */; };
+		91E96F912A3816BA00C27BCE /* libEgretWebViewLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E96F802A3816B900C27BCE /* libEgretWebViewLib.a */; };
+		91E96F922A3816BA00C27BCE /* libCocoaAsyncSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E96F892A3816B900C27BCE /* libCocoaAsyncSocket.a */; };
+		91E96F9D2A383D8300C27BCE /* FKSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E96F9B2A383D2500C27BCE /* FKSDK.framework */; };
+		91E96F9E2A383D8300C27BCE /* FKSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91E96F9B2A383D2500C27BCE /* FKSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91FF034629657976008B4A5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FF034529657976008B4A5A /* AppDelegate.m */; };
+		91FF034C29657976008B4A5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FF034B29657976008B4A5A /* ViewController.m */; };
+		91FF034F29657976008B4A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FF034D29657976008B4A5A /* Main.storyboard */; };
+		91FF035129657979008B4A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FF035029657979008B4A5A /* Assets.xcassets */; };
+		91FF035429657979008B4A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FF035229657979008B4A5A /* LaunchScreen.storyboard */; };
+		91FF035729657979008B4A5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FF035629657979008B4A5A /* main.m */; };
+		D759FA38B7D36CB35C252AAF /* libPods-FKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0DC2F5941017DB528E04C7 /* libPods-FKDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		915D57C42A1CC8900046C50F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				915D57F52A1CCB810046C50F /* Flutter.xcframework in Embed Frameworks */,
+				915D57F92A1CCB870046C50F /* share_plus.xcframework in Embed Frameworks */,
+				915D57FB2A1CCB8B0046C50F /* shared_preferences_foundation.xcframework in Embed Frameworks */,
+				915D57FF2A1CCB900046C50F /* webview_flutter_wkwebview.xcframework in Embed Frameworks */,
+				915D57F32A1CCB7F0046C50F /* flutter_boost.xcframework in Embed Frameworks */,
+				915D57F72A1CCB850046C50F /* path_provider_foundation.xcframework in Embed Frameworks */,
+				91E96F9E2A383D8300C27BCE /* FKSDK.framework in Embed Frameworks */,
+				915D57F12A1CCB7C0046C50F /* App.xcframework in Embed Frameworks */,
+				915D57FD2A1CCB8C0046C50F /* SVProgressHUD.xcframework in Embed Frameworks */,
+				915D58012A1CCB910046C50F /* url_launcher_ios.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F0DC2F5941017DB528E04C7 /* libPods-FKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2211D8F0E8D2412375A70085 /* Pods-FKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FKDemo.release.xcconfig"; path = "Target Support Files/Pods-FKDemo/Pods-FKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		915D57AF2A1CC8510046C50F /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = path_provider_foundation.xcframework; sourceTree = "<group>"; };
+		915D57B02A1CC8520046C50F /* flutter_boost.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = flutter_boost.xcframework; sourceTree = "<group>"; };
+		915D57B12A1CC8520046C50F /* share_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = share_plus.xcframework; sourceTree = "<group>"; };
+		915D57B22A1CC8560046C50F /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Flutter.xcframework; sourceTree = "<group>"; };
+		915D57B32A1CC8560046C50F /* webview_flutter_wkwebview.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = webview_flutter_wkwebview.xcframework; sourceTree = "<group>"; };
+		915D57B42A1CC8570046C50F /* shared_preferences_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = shared_preferences_foundation.xcframework; sourceTree = "<group>"; };
+		915D57B52A1CC8580046C50F /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = App.xcframework; sourceTree = "<group>"; };
+		915D57B62A1CC8590046C50F /* url_launcher_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = url_launcher_ios.xcframework; sourceTree = "<group>"; };
+		915D57B72A1CC85A0046C50F /* SVProgressHUD.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SVProgressHUD.xcframework; sourceTree = "<group>"; };
+		91D949572977FD3800552471 /* FlutterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlutterVC.h; sourceTree = "<group>"; };
+		91D949582977FD3800552471 /* FlutterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlutterVC.m; sourceTree = "<group>"; };
+		91DA7EDD2A1DB93B00AB6764 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		91E96F6F2A3816B900C27BCE /* libCocoaLumberjack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCocoaLumberjack.a; sourceTree = "<group>"; };
+		91E96F712A3816B900C27BCE /* libCocoaHTTPServer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCocoaHTTPServer.a; sourceTree = "<group>"; };
+		91E96F732A3816B900C27BCE /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		91E96F752A3816B900C27BCE /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		91E96F762A3816B900C27BCE /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		91E96F772A3816B900C27BCE /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		91E96F782A3816B900C27BCE /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		91E96F792A3816B900C27BCE /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		91E96F7A2A3816B900C27BCE /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		91E96F7B2A3816B900C27BCE /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		91E96F7C2A3816B900C27BCE /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		91E96F7D2A3816B900C27BCE /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		91E96F7E2A3816B900C27BCE /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		91E96F802A3816B900C27BCE /* libEgretWebViewLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEgretWebViewLib.a; sourceTree = "<group>"; };
+		91E96F822A3816B900C27BCE /* HttpRequestDownloadProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestDownloadProtocol.h; sourceTree = "<group>"; };
+		91E96F832A3816B900C27BCE /* ListFileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListFileLoader.h; sourceTree = "<group>"; };
+		91E96F842A3816B900C27BCE /* BaseFileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseFileLoader.h; sourceTree = "<group>"; };
+		91E96F852A3816B900C27BCE /* EgretWebViewLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EgretWebViewLib.h; sourceTree = "<group>"; };
+		91E96F862A3816B900C27BCE /* ZipFileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipFileLoader.h; sourceTree = "<group>"; };
+		91E96F872A3816B900C27BCE /* FileLoaderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileLoaderProtocol.h; sourceTree = "<group>"; };
+		91E96F892A3816B900C27BCE /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCocoaAsyncSocket.a; sourceTree = "<group>"; };
+		91E96F9A2A38190700C27BCE /* FKManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKManager.h; sourceTree = "<group>"; };
+		91E96F9B2A383D2500C27BCE /* FKSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FKSDK.framework; sourceTree = "<group>"; };
+		91FF034129657976008B4A5A /* FKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FF034429657976008B4A5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91FF034529657976008B4A5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91FF034A29657976008B4A5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		91FF034B29657976008B4A5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		91FF034E29657976008B4A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91FF035029657979008B4A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91FF035329657979008B4A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91FF035529657979008B4A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FF035629657979008B4A5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D32D8A52B470F7F652AD59FD /* Pods-FKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FKDemo.debug.xcconfig"; path = "Target Support Files/Pods-FKDemo/Pods-FKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91FF033E29657976008B4A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E96F8A2A3816BA00C27BCE /* libCocoaLumberjack.a in Frameworks */,
+				91DA7EDE2A1DB93C00AB6764 /* AdSupport.framework in Frameworks */,
+				915D57FE2A1CCB8F0046C50F /* webview_flutter_wkwebview.xcframework in Frameworks */,
+				915D57F42A1CCB810046C50F /* Flutter.xcframework in Frameworks */,
+				91E96F8B2A3816BA00C27BCE /* libCocoaHTTPServer.a in Frameworks */,
+				91E96F912A3816BA00C27BCE /* libEgretWebViewLib.a in Frameworks */,
+				915D57FC2A1CCB8C0046C50F /* SVProgressHUD.xcframework in Frameworks */,
+				91E96F922A3816BA00C27BCE /* libCocoaAsyncSocket.a in Frameworks */,
+				915D57F82A1CCB860046C50F /* share_plus.xcframework in Frameworks */,
+				915D57F02A1CCB7C0046C50F /* App.xcframework in Frameworks */,
+				915D58002A1CCB910046C50F /* url_launcher_ios.xcframework in Frameworks */,
+				915D57F22A1CCB7F0046C50F /* flutter_boost.xcframework in Frameworks */,
+				915D57FA2A1CCB8B0046C50F /* shared_preferences_foundation.xcframework in Frameworks */,
+				915D57F62A1CCB850046C50F /* path_provider_foundation.xcframework in Frameworks */,
+				91E96F9D2A383D8300C27BCE /* FKSDK.framework in Frameworks */,
+				D759FA38B7D36CB35C252AAF /* libPods-FKDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31364FE9B396FEE464D3FEFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91DA7EDD2A1DB93B00AB6764 /* AdSupport.framework */,
+				0F0DC2F5941017DB528E04C7 /* libPods-FKDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91E96F6C2A38166500C27BCE /* FKSDK */ = {
+			isa = PBXGroup;
+			children = (
+				91E96F9B2A383D2500C27BCE /* FKSDK.framework */,
+				91E96F9A2A38190700C27BCE /* FKManager.h */,
+				915D57B22A1CC8560046C50F /* Flutter.xcframework */,
+				915D57B52A1CC8580046C50F /* App.xcframework */,
+				915D57AF2A1CC8510046C50F /* path_provider_foundation.xcframework */,
+				915D57B12A1CC8520046C50F /* share_plus.xcframework */,
+				915D57B42A1CC8570046C50F /* shared_preferences_foundation.xcframework */,
+				915D57B02A1CC8520046C50F /* flutter_boost.xcframework */,
+				915D57B72A1CC85A0046C50F /* SVProgressHUD.xcframework */,
+				915D57B62A1CC8590046C50F /* url_launcher_ios.xcframework */,
+				915D57B32A1CC8560046C50F /* webview_flutter_wkwebview.xcframework */,
+			);
+			path = FKSDK;
+			sourceTree = "<group>";
+		};
+		91E96F6D2A3816B900C27BCE /* EgretWebViewLib */ = {
+			isa = PBXGroup;
+			children = (
+				91E96F6E2A3816B900C27BCE /* CocoaLumberjack */,
+				91E96F702A3816B900C27BCE /* CocoaHTTPServer */,
+				91E96F722A3816B900C27BCE /* zipArchive */,
+				91E96F7F2A3816B900C27BCE /* EgretWebViewLib */,
+				91E96F882A3816B900C27BCE /* CocoaAsyncSocket */,
+			);
+			path = EgretWebViewLib;
+			sourceTree = "<group>";
+		};
+		91E96F6E2A3816B900C27BCE /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				91E96F6F2A3816B900C27BCE /* libCocoaLumberjack.a */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		91E96F702A3816B900C27BCE /* CocoaHTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				91E96F712A3816B900C27BCE /* libCocoaHTTPServer.a */,
+			);
+			path = CocoaHTTPServer;
+			sourceTree = "<group>";
+		};
+		91E96F722A3816B900C27BCE /* zipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				91E96F732A3816B900C27BCE /* ZipArchive.h */,
+				91E96F742A3816B900C27BCE /* minizip */,
+				91E96F7E2A3816B900C27BCE /* ZipArchive.mm */,
+			);
+			path = zipArchive;
+			sourceTree = "<group>";
+		};
+		91E96F742A3816B900C27BCE /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				91E96F752A3816B900C27BCE /* unzip.c */,
+				91E96F762A3816B900C27BCE /* zip.c */,
+				91E96F772A3816B900C27BCE /* ioapi.c */,
+				91E96F782A3816B900C27BCE /* mztools.c */,
+				91E96F792A3816B900C27BCE /* crypt.h */,
+				91E96F7A2A3816B900C27BCE /* zip.h */,
+				91E96F7B2A3816B900C27BCE /* unzip.h */,
+				91E96F7C2A3816B900C27BCE /* mztools.h */,
+				91E96F7D2A3816B900C27BCE /* ioapi.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		91E96F7F2A3816B900C27BCE /* EgretWebViewLib */ = {
+			isa = PBXGroup;
+			children = (
+				91E96F802A3816B900C27BCE /* libEgretWebViewLib.a */,
+				91E96F812A3816B900C27BCE /* include */,
+			);
+			path = EgretWebViewLib;
+			sourceTree = "<group>";
+		};
+		91E96F812A3816B900C27BCE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				91E96F822A3816B900C27BCE /* HttpRequestDownloadProtocol.h */,
+				91E96F832A3816B900C27BCE /* ListFileLoader.h */,
+				91E96F842A3816B900C27BCE /* BaseFileLoader.h */,
+				91E96F852A3816B900C27BCE /* EgretWebViewLib.h */,
+				91E96F862A3816B900C27BCE /* ZipFileLoader.h */,
+				91E96F872A3816B900C27BCE /* FileLoaderProtocol.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		91E96F882A3816B900C27BCE /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				91E96F892A3816B900C27BCE /* libCocoaAsyncSocket.a */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		91FF033829657975008B4A5A = {
+			isa = PBXGroup;
+			children = (
+				91FF034329657976008B4A5A /* FKDemo */,
+				91FF034229657976008B4A5A /* Products */,
+				9655A94A67DB69DBE6D50616 /* Pods */,
+				31364FE9B396FEE464D3FEFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91FF034229657976008B4A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FF034129657976008B4A5A /* FKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FF034329657976008B4A5A /* FKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				91E96F6D2A3816B900C27BCE /* EgretWebViewLib */,
+				91E96F6C2A38166500C27BCE /* FKSDK */,
+				91FF034429657976008B4A5A /* AppDelegate.h */,
+				91FF034529657976008B4A5A /* AppDelegate.m */,
+				91D949572977FD3800552471 /* FlutterVC.h */,
+				91D949582977FD3800552471 /* FlutterVC.m */,
+				91FF034A29657976008B4A5A /* ViewController.h */,
+				91FF034B29657976008B4A5A /* ViewController.m */,
+				91FF034D29657976008B4A5A /* Main.storyboard */,
+				91FF035029657979008B4A5A /* Assets.xcassets */,
+				91FF035229657979008B4A5A /* LaunchScreen.storyboard */,
+				91FF035529657979008B4A5A /* Info.plist */,
+				91FF035629657979008B4A5A /* main.m */,
+			);
+			path = FKDemo;
+			sourceTree = "<group>";
+		};
+		9655A94A67DB69DBE6D50616 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D32D8A52B470F7F652AD59FD /* Pods-FKDemo.debug.xcconfig */,
+				2211D8F0E8D2412375A70085 /* Pods-FKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91FF034029657976008B4A5A /* FKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FF035A29657979008B4A5A /* Build configuration list for PBXNativeTarget "FKDemo" */;
+			buildPhases = (
+				22D9F5B1023866B1CDE651DD /* [CP] Check Pods Manifest.lock */,
+				91FF033D29657976008B4A5A /* Sources */,
+				91FF033E29657976008B4A5A /* Frameworks */,
+				91FF033F29657976008B4A5A /* Resources */,
+				915D57C42A1CC8900046C50F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FKDemo;
+			productName = FKDemo;
+			productReference = 91FF034129657976008B4A5A /* FKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91FF033929657975008B4A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					91FF034029657976008B4A5A = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 91FF033C29657975008B4A5A /* Build configuration list for PBXProject "FKDemo" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91FF033829657975008B4A5A;
+			productRefGroup = 91FF034229657976008B4A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91FF034029657976008B4A5A /* FKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91FF033F29657976008B4A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FF035429657979008B4A5A /* LaunchScreen.storyboard in Resources */,
+				91FF035129657979008B4A5A /* Assets.xcassets in Resources */,
+				91FF034F29657976008B4A5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22D9F5B1023866B1CDE651DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91FF033D29657976008B4A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E96F8C2A3816BA00C27BCE /* unzip.c in Sources */,
+				91E96F8F2A3816BA00C27BCE /* mztools.c in Sources */,
+				91E96F8E2A3816BA00C27BCE /* ioapi.c in Sources */,
+				91E96F902A3816BA00C27BCE /* ZipArchive.mm in Sources */,
+				91FF034C29657976008B4A5A /* ViewController.m in Sources */,
+				91FF034629657976008B4A5A /* AppDelegate.m in Sources */,
+				91E96F8D2A3816BA00C27BCE /* zip.c in Sources */,
+				91D949592977FD3800552471 /* FlutterVC.m in Sources */,
+				91FF035729657979008B4A5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91FF034D29657976008B4A5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FF034E29657976008B4A5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91FF035229657979008B4A5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FF035329657979008B4A5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91FF035829657979008B4A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_GENERATE_MAP_FILE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91FF035929657979008B4A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_GENERATE_MAP_FILE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91FF035B29657979008B4A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D32D8A52B470F7F652AD59FD /* Pods-FKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = UN2J2M5DF5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FKDemo/FKSDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
+				INFOPLIST_FILE = FKDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FKSDK;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "是否允许使用广告权限，以获取更好的广告体验？";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_MAP_FILE_PATH = /Users/chengxiaokang/Desktop/link.txt;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../module/build/ios/framework/Debug\"",
+					"$(inherited)",
+					"$(PROJECT_DIR)/FKDemo/EgretWebViewLib/CocoaLumberjack",
+					"$(PROJECT_DIR)/FKDemo/EgretWebViewLib/CocoaHTTPServer",
+					"$(PROJECT_DIR)/FKDemo/EgretWebViewLib/EgretWebViewLib",
+					"$(PROJECT_DIR)/FKDemo/EgretWebViewLib/CocoaAsyncSocket",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdk.tmp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91FF035C29657979008B4A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2211D8F0E8D2412375A70085 /* Pods-FKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = UN2J2M5DF5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FKDemo/FKSDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
+				INFOPLIST_FILE = FKDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FKSDK;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "是否允许使用广告权限，以获取更好的广告体验？";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_MAP_FILE_PATH = /Users/chengxiaokang/Desktop/link.txt;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../module/build/ios/framework/Debug\"",
+					"$(inherited)",
+					"$(PROJECT_DIR)/FKDemo/EgretWebViewLib/CocoaLumberjack",
+					"$(PROJECT_DIR)/FKDemo/EgretWebViewLib/CocoaHTTPServer",
+					"$(PROJECT_DIR)/FKDemo/EgretWebViewLib/EgretWebViewLib",
+					"$(PROJECT_DIR)/FKDemo/EgretWebViewLib/CocoaAsyncSocket",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdk.tmp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91FF033C29657975008B4A5A /* Build configuration list for PBXProject "FKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FF035829657979008B4A5A /* Debug */,
+				91FF035929657979008B4A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FF035A29657979008B4A5A /* Build configuration list for PBXNativeTarget "FKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FF035B29657979008B4A5A /* Debug */,
+				91FF035C29657979008B4A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91FF033929657975008B4A5A /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module FKSDK {
+  umbrella header "FKSDK.h"
+
+  export *
+  module * { export * }
+}

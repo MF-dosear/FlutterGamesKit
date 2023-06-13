@@ -1,0 +1,768 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "path_provider_foundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "path_provider_foundation"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DirectoryType",
+        "printedName": "DirectoryType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "applicationDocuments",
+            "printedName": "applicationDocuments",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(path_provider_foundation.DirectoryType.Type) -> path_provider_foundation.DirectoryType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DirectoryType",
+                    "printedName": "path_provider_foundation.DirectoryType",
+                    "usr": "s:24path_provider_foundation13DirectoryTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "path_provider_foundation.DirectoryType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DirectoryType",
+                        "printedName": "path_provider_foundation.DirectoryType",
+                        "usr": "s:24path_provider_foundation13DirectoryTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24path_provider_foundation13DirectoryTypeO20applicationDocumentsyA2CmF",
+            "mangledName": "$s24path_provider_foundation13DirectoryTypeO20applicationDocumentsyA2CmF",
+            "moduleName": "path_provider_foundation",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "applicationSupport",
+            "printedName": "applicationSupport",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(path_provider_foundation.DirectoryType.Type) -> path_provider_foundation.DirectoryType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DirectoryType",
+                    "printedName": "path_provider_foundation.DirectoryType",
+                    "usr": "s:24path_provider_foundation13DirectoryTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "path_provider_foundation.DirectoryType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DirectoryType",
+                        "printedName": "path_provider_foundation.DirectoryType",
+                        "usr": "s:24path_provider_foundation13DirectoryTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24path_provider_foundation13DirectoryTypeO18applicationSupportyA2CmF",
+            "mangledName": "$s24path_provider_foundation13DirectoryTypeO18applicationSupportyA2CmF",
+            "moduleName": "path_provider_foundation",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "downloads",
+            "printedName": "downloads",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(path_provider_foundation.DirectoryType.Type) -> path_provider_foundation.DirectoryType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DirectoryType",
+                    "printedName": "path_provider_foundation.DirectoryType",
+                    "usr": "s:24path_provider_foundation13DirectoryTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "path_provider_foundation.DirectoryType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DirectoryType",
+                        "printedName": "path_provider_foundation.DirectoryType",
+                        "usr": "s:24path_provider_foundation13DirectoryTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24path_provider_foundation13DirectoryTypeO9downloadsyA2CmF",
+            "mangledName": "$s24path_provider_foundation13DirectoryTypeO9downloadsyA2CmF",
+            "moduleName": "path_provider_foundation",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "library",
+            "printedName": "library",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(path_provider_foundation.DirectoryType.Type) -> path_provider_foundation.DirectoryType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DirectoryType",
+                    "printedName": "path_provider_foundation.DirectoryType",
+                    "usr": "s:24path_provider_foundation13DirectoryTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "path_provider_foundation.DirectoryType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DirectoryType",
+                        "printedName": "path_provider_foundation.DirectoryType",
+                        "usr": "s:24path_provider_foundation13DirectoryTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24path_provider_foundation13DirectoryTypeO7libraryyA2CmF",
+            "mangledName": "$s24path_provider_foundation13DirectoryTypeO7libraryyA2CmF",
+            "moduleName": "path_provider_foundation",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "temp",
+            "printedName": "temp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(path_provider_foundation.DirectoryType.Type) -> path_provider_foundation.DirectoryType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DirectoryType",
+                    "printedName": "path_provider_foundation.DirectoryType",
+                    "usr": "s:24path_provider_foundation13DirectoryTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "path_provider_foundation.DirectoryType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DirectoryType",
+                        "printedName": "path_provider_foundation.DirectoryType",
+                        "usr": "s:24path_provider_foundation13DirectoryTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24path_provider_foundation13DirectoryTypeO4tempyA2CmF",
+            "mangledName": "$s24path_provider_foundation13DirectoryTypeO4tempyA2CmF",
+            "moduleName": "path_provider_foundation",
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "path_provider_foundation.DirectoryType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DirectoryType",
+                    "printedName": "path_provider_foundation.DirectoryType",
+                    "usr": "s:24path_provider_foundation13DirectoryTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24path_provider_foundation13DirectoryTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s24path_provider_foundation13DirectoryTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "path_provider_foundation",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24path_provider_foundation13DirectoryTypeO8rawValueSivp",
+            "mangledName": "$s24path_provider_foundation13DirectoryTypeO8rawValueSivp",
+            "moduleName": "path_provider_foundation",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24path_provider_foundation13DirectoryTypeO8rawValueSivg",
+                "mangledName": "$s24path_provider_foundation13DirectoryTypeO8rawValueSivg",
+                "moduleName": "path_provider_foundation",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:24path_provider_foundation13DirectoryTypeO",
+        "mangledName": "$s24path_provider_foundation13DirectoryTypeO",
+        "moduleName": "path_provider_foundation",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PathProviderApi",
+        "printedName": "PathProviderApi",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getDirectoryPath",
+            "printedName": "getDirectoryPath(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DirectoryType",
+                "printedName": "path_provider_foundation.DirectoryType",
+                "usr": "s:24path_provider_foundation13DirectoryTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24path_provider_foundation15PathProviderApiP012getDirectoryD04typeSSSgAA0H4TypeO_tF",
+            "mangledName": "$s24path_provider_foundation15PathProviderApiP012getDirectoryD04typeSSSgAA0H4TypeO_tF",
+            "moduleName": "path_provider_foundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : path_provider_foundation.PathProviderApi>",
+            "sugared_genericSig": "<Self where Self : path_provider_foundation.PathProviderApi>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:24path_provider_foundation15PathProviderApiP",
+        "mangledName": "$s24path_provider_foundation15PathProviderApiP",
+        "moduleName": "path_provider_foundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PathProviderApiSetup",
+        "printedName": "PathProviderApiSetup",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setUp",
+            "printedName": "setUp(binaryMessenger:api:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterBinaryMessenger",
+                "printedName": "Flutter.FlutterBinaryMessenger",
+                "usr": "c:objc(pl)FlutterBinaryMessenger"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "path_provider_foundation.PathProviderApi?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PathProviderApi",
+                    "printedName": "path_provider_foundation.PathProviderApi",
+                    "usr": "s:24path_provider_foundation15PathProviderApiP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24path_provider_foundation20PathProviderApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZ",
+            "mangledName": "$s24path_provider_foundation20PathProviderApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZ",
+            "moduleName": "path_provider_foundation",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PathProviderApiSetup",
+                "printedName": "path_provider_foundation.PathProviderApiSetup",
+                "usr": "s:24path_provider_foundation20PathProviderApiSetupC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24path_provider_foundation20PathProviderApiSetupCACycfc",
+            "mangledName": "$s24path_provider_foundation20PathProviderApiSetupCACycfc",
+            "moduleName": "path_provider_foundation",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24path_provider_foundation20PathProviderApiSetupC",
+        "mangledName": "$s24path_provider_foundation20PathProviderApiSetupC",
+        "moduleName": "path_provider_foundation",
+        "isOpen": true,
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "path_provider_foundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "path_provider_foundation"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PathProviderPlugin",
+        "printedName": "PathProviderPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@path_provider_foundation@objc(cs)PathProviderPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s24path_provider_foundation18PathProviderPluginC8register4withySo07FlutterF9Registrar_p_tFZ",
+            "moduleName": "path_provider_foundation",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDirectoryPath",
+            "printedName": "getDirectoryPath(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DirectoryType",
+                "printedName": "path_provider_foundation.DirectoryType",
+                "usr": "s:24path_provider_foundation13DirectoryTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24path_provider_foundation18PathProviderPluginC012getDirectoryD04typeSSSgAA0H4TypeO_tF",
+            "mangledName": "$s24path_provider_foundation18PathProviderPluginC012getDirectoryD04typeSSSgAA0H4TypeO_tF",
+            "moduleName": "path_provider_foundation",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PathProviderPlugin",
+                "printedName": "path_provider_foundation.PathProviderPlugin",
+                "usr": "c:@M@path_provider_foundation@objc(cs)PathProviderPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@path_provider_foundation@objc(cs)PathProviderPlugin(im)init",
+            "mangledName": "$s24path_provider_foundation18PathProviderPluginCACycfc",
+            "moduleName": "path_provider_foundation",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@path_provider_foundation@objc(cs)PathProviderPlugin",
+        "mangledName": "$s24path_provider_foundation18PathProviderPluginC",
+        "moduleName": "path_provider_foundation",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PathProviderApi",
+            "printedName": "PathProviderApi",
+            "usr": "s:24path_provider_foundation15PathProviderApiP",
+            "mangledName": "$s24path_provider_foundation15PathProviderApiP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/chengxiaokang\/Library\/flutter\/.pub-cache\/hosted\/pub.flutter-io.cn\/path_provider_foundation-2.1.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 491,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chengxiaokang\/Library\/flutter\/.pub-cache\/hosted\/pub.flutter-io.cn\/path_provider_foundation-2.1.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 521,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chengxiaokang\/Library\/flutter\/.pub-cache\/hosted\/pub.flutter-io.cn\/path_provider_foundation-2.1.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chengxiaokang\/Library\/flutter\/.pub-cache\/hosted\/pub.flutter-io.cn\/path_provider_foundation-2.1.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 561,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chengxiaokang\/Library\/flutter\/.pub-cache\/hosted\/pub.flutter-io.cn\/path_provider_foundation-2.1.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 577,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chengxiaokang\/Library\/flutter\/.pub-cache\/hosted\/pub.flutter-io.cn\/path_provider_foundation-2.1.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 491,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chengxiaokang\/Library\/flutter\/.pub-cache\/hosted\/pub.flutter-io.cn\/path_provider_foundation-2.1.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 521,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chengxiaokang\/Library\/flutter\/.pub-cache\/hosted\/pub.flutter-io.cn\/path_provider_foundation-2.1.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chengxiaokang\/Library\/flutter\/.pub-cache\/hosted\/pub.flutter-io.cn\/path_provider_foundation-2.1.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 561,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chengxiaokang\/Library\/flutter\/.pub-cache\/hosted\/pub.flutter-io.cn\/path_provider_foundation-2.1.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 577,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chengxiaokang\/Library\/flutter\/.pub-cache\/hosted\/pub.flutter-io.cn\/path_provider_foundation-2.1.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 491,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chengxiaokang\/Library\/flutter\/.pub-cache\/hosted\/pub.flutter-io.cn\/path_provider_foundation-2.1.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 521,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chengxiaokang\/Library\/flutter\/.pub-cache\/hosted\/pub.flutter-io.cn\/path_provider_foundation-2.1.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chengxiaokang\/Library\/flutter\/.pub-cache\/hosted\/pub.flutter-io.cn\/path_provider_foundation-2.1.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 561,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chengxiaokang\/Library\/flutter\/.pub-cache\/hosted\/pub.flutter-io.cn\/path_provider_foundation-2.1.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 577,
+      "length": 1,
+      "value": "4"
+    }
+  ]
+}
