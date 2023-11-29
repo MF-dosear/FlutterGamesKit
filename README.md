@@ -1,9 +1,9 @@
-# FutterGamesKit
+# FlutterGamesKit
 
-[![CI Status](https://img.shields.io/travis/dosear@qq.com/FutterGamesKit.svg?style=flat)](https://travis-ci.org/dosear@qq.com/FutterGamesKit)
-[![Version](https://img.shields.io/cocoapods/v/FutterGamesKit.svg?style=flat)](https://cocoapods.org/pods/FutterGamesKit)
-[![License](https://img.shields.io/cocoapods/l/FutterGamesKit.svg?style=flat)](https://cocoapods.org/pods/FutterGamesKit)
-[![Platform](https://img.shields.io/cocoapods/p/FutterGamesKit.svg?style=flat)](https://cocoapods.org/pods/FutterGamesKit)
+[![CI Status](https://img.shields.io/travis/dosear@qq.com/FlutterGamesKit.svg?style=flat)](https://travis-ci.org/dosear@qq.com/FlutterGamesKit)
+[![Version](https://img.shields.io/cocoapods/v/FlutterGamesKit.svg?style=flat)](https://cocoapods.org/pods/FlutterGamesKit)
+[![License](https://img.shields.io/cocoapods/l/FlutterGamesKit.svg?style=flat)](https://cocoapods.org/pods/FlutterGamesKit)
+[![Platform](https://img.shields.io/cocoapods/p/FlutterGamesKit.svg?style=flat)](https://cocoapods.org/pods/FlutterGamesKit)
 
 ## Example
 
@@ -13,11 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-FutterGamesKit is available through [CocoaPods](https://cocoapods.org). To install
+FlutterGamesKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'FutterGamesKit'
+pod 'FlutterGamesKit'
 ```
 
 ## Author
@@ -68,4 +68,4 @@ didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> *
 
 ## License
 
-FutterGamesKit is available under the MIT license. See the LICENSE file for more info.
+FlutterGamesKit is available under the MIT license. See the LICENSE file for more info.
