@@ -32,9 +32,16 @@ Flutter插件编写，支持iOS 和 Android，该工程是iOS参考demo
 
 ```swift
 
+// 头文件导入
+#import <FlutterGamesKit/FlutterGamesKit-umbrella.h>
+
 /// AppDelegate方法
-+ (void)sdkApplication:(UIApplication *)application
-didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> *)launchOptions;
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    [FKSDK sdkApplication:application didFinishLaunchingWithOptions:launchOptions];
+    
+    return YES;
+}
 
 /// 初始化
 + (void)sdkInitWithParams:(NSDictionary *)params result:(Result)result;
