@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FlutterGamesKit'
   s.platform         = :ios, '12.0'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Flutter 版本游戏SDK'
 
   s.description      = <<-DESC
@@ -24,9 +24,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'FlutterGamesKit/Classes/**/*'
+  s.source_files = ['FlutterGamesKit/Classes/**/*']
   
-  s.vendored_frameworks = 'FlutterGamesKit/Frameworks/*.xcframework'
+  s.vendored_frameworks = ['FlutterGamesKit/Frameworks/*.framework']
   
   s.dependency 'AFNetworking','~> 4.0.1'
   
