@@ -5,7 +5,7 @@
   },
   "version": "1.0.3",
   "summary": "Flutter 版本游戏SDK",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "Flutter 游戏 SDK iOS、Android双端\nFlutter插件编写，支持iOS 和 Android，该工程是iOS参考demo",
   "homepage": "https://github.com/MF-dosear/FlutterGamesKit",
   "license": {
     "type": "MIT",
@@ -25,12 +25,15 @@
   "source_files": [
     "FlutterGamesKit/Classes/**/*"
   ],
-  "vendored_frameworks": [
-    "FlutterGamesKit/Frameworks/*.framework"
-  ],
   "dependencies": {
     "AFNetworking": [
       "~> 4.0.1"
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "Main",
+      "vendored_frameworks": "FlutterGamesKit/Frameworks/*.framework"
+    }
+  ]
 }

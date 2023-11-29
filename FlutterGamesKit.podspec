@@ -5,7 +5,8 @@ Pod::Spec.new do |s|
   s.summary          = 'Flutter 版本游戏SDK'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Flutter 游戏 SDK iOS、Android双端
+  Flutter插件编写，支持iOS 和 Android，该工程是iOS参考demo
                        DESC
 
   s.homepage         = 'https://github.com/MF-dosear/FlutterGamesKit'

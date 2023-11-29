@@ -235,6 +235,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FlutterGamesKit_Example/Pods-FlutterGamesKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FlutterGamesKit/FlutterGamesKit.framework",
 				"${PODS_ROOT}/../../FlutterGamesKit/Frameworks/App.framework",
 				"${PODS_ROOT}/../../FlutterGamesKit/Frameworks/Flutter.framework",
 				"${PODS_ROOT}/../../FlutterGamesKit/Frameworks/flutter_boost.framework",
@@ -244,11 +245,11 @@
 				"${PODS_ROOT}/../../FlutterGamesKit/Frameworks/SVProgressHUD.framework",
 				"${PODS_ROOT}/../../FlutterGamesKit/Frameworks/url_launcher_ios.framework",
 				"${PODS_ROOT}/../../FlutterGamesKit/Frameworks/webview_flutter_wkwebview.framework",
-				"${BUILT_PRODUCTS_DIR}/FlutterGamesKit/FlutterGamesKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlutterGamesKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_boost.framework",
@@ -258,7 +259,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/url_launcher_ios.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/webview_flutter_wkwebview.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlutterGamesKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

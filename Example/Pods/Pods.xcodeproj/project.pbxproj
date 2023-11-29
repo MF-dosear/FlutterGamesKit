@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0447A6C4F3FE0E0F1650B002F11ED096 /* FKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B41D4134A86D7DD242381E296B0C6E /* FKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05196C0B403310059938780F9A0BEB03 /* FlutterGamesKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F2DAA5A927314FCD9FF7F43322EE63 /* FlutterGamesKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0447A6C4F3FE0E0F1650B002F11ED096 /* FKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC80E10ADA029E28C0B694D91FBD88C /* FKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05196C0B403310059938780F9A0BEB03 /* FlutterGamesKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B1C804D8DC08E696BD9AF53099DDBA1 /* FlutterGamesKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0FC2C7300D3DE350BD73741888D9A1A8 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 842F909230AAC675241531ECA8AEE4A5 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18AEFCE986FB74A0B6B092B3BA2267C6 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C226F9AC0ECB3E8ACF768A2FA7B887 /* UIImageView+AFNetworking.m */; };
 		22AD28E260EF21FECAAEF40B04E8E020 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D5F2CEB9B6937C268DB26EEF62978D /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23AEAF5E77D59B98AE79C57BAE746C1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		240EADB49C6EEFA2B114C0DBDAB0E089 /* NSString+JKDictionaryValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B75BBE004D8A453FA45009198AB4DAC /* NSString+JKDictionaryValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		240EADB49C6EEFA2B114C0DBDAB0E089 /* NSString+JKDictionaryValue.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB1F1589CDDAF650E13021D48CC684F /* NSString+JKDictionaryValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A1AA22D234973BA30D8493C546884C /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D655AE14CB5B94D33CDF7B47A889FF87 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27AB52C7962046BC8963B2CD626F22BD /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE29478595C35D1DBF6CB2EE1BC11D5 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33B9A195FDB315F18465CB1BA24D74A9 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C617FE811A91EA69182671BD494E324 /* AFHTTPSessionManager.m */; };
 		347731E8D4C4F27FC53DDFAC590481D6 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B93D780D83E013B9CF065117B6ABA80 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36D52372FD401C301D437ACE21A6EE56 /* NSMutableDictionary+YX.m in Sources */ = {isa = PBXBuildFile; fileRef = CF27C88E3CB2FEA3533CE6E0FAFFBBA3 /* NSMutableDictionary+YX.m */; };
-		3D3023A013483B5C1E91659842AD283F /* FKRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 171B4884E9B0238CA0689FD61D8C97B5 /* FKRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36D52372FD401C301D437ACE21A6EE56 /* NSMutableDictionary+YX.m in Sources */ = {isa = PBXBuildFile; fileRef = 995CE21803032D712080C5EA2C312B0A /* NSMutableDictionary+YX.m */; };
+		3D3023A013483B5C1E91659842AD283F /* FKRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = ACBA5D8B512CD5F8507817F3781432F2 /* FKRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E7A25BCE5BAC256FBBA56106C3192CD /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D0730868BFD57958E896FE402D758ACB /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DCB59DE84A69063E9485E4D8BF8C637 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3600A67B33B1FED00AE88B43D1244F6 /* AFNetworking-dummy.m */; };
 		52E68E9AFF4A9C20F05A07F3E55EAF59 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C5F299CDD4219A0F5A63827D34D2E1 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57744CA757400E7183DFC0D37EFB5214 /* WKWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFDF83F2C855F29352862D71100C1B2 /* WKWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		584233A4CEC7C9AA382A1A43C26B87EE /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 648A80C6763B46492C7A3ACEB109BCE4 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A63ADBAF8E8C5BAD20D951288A991DD /* FKRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCCAE18F1D323F11664029808697D24 /* FKRouter.m */; };
+		5A63ADBAF8E8C5BAD20D951288A991DD /* FKRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEF8FC07C837B7D2519927FE01161FA /* FKRouter.m */; };
 		5BE27AF46E2DE81F61752081EDB7E52B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 536C3EED4FA306EE3A3CC917259D28D2 /* AFSecurityPolicy.m */; };
 		63419018E7222B414E161CD480398E20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E6CBFBD0305264D5446D381452785B /* AFNetworkReachabilityManager.m */; };
 		637243EE5807271030AE4D9741392852 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 087E14CFD01C52C8F320802FBE1C96AD /* AFURLSessionManager.m */; };
@@ -40,144 +40,144 @@
 		97EB8976E78AA2C17544A6453BC1EF04 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3E2CD3A24ADC744F7D0585EBA2B334 /* AFURLResponseSerialization.m */; };
 		98B2D166752FBBBF43DCAC871A557841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9F5D472E0B58C95613C76C43148FC8B5 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0587DEB0F48B0C1A8B2789B2897009D7 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A29EBEE87F3DBB0921B390E943BB69E0 /* UIDevice+Device.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBCB9C2372191F558496799FC7703E9 /* UIDevice+Device.m */; };
+		A29EBEE87F3DBB0921B390E943BB69E0 /* UIDevice+Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D10653230D257EA334369FB6BE0AC9 /* UIDevice+Device.m */; };
 		AC29EE5318026D0BAF479C904536378F /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2D8C6F89E11A531AD7544C065F4DDC /* UIRefreshControl+AFNetworking.m */; };
 		AD6158AF5746E99C7136F3ECA9423C63 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9CF71DA91C2758689E5548AFB791C /* UIActivityIndicatorView+AFNetworking.m */; };
 		B7DA5AE2EE8808176A31F845A204C190 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DD89AB0F81BDA8E59943C89131288 /* UIButton+AFNetworking.m */; };
 		B8AD58C4501F99461CB07AC05DCB8705 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 184C15B942C47068EFDF9A418C8CF769 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8B4A245FEFA2CE20339CA8CA8BE68EC /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 75ACF33252734108CC44AF5E36AAD396 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAB08D6748C698A6AA6DC7D6A2BFFE49 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 929EE54BD0D1854BBCCA902B94780F8F /* AFNetworkActivityIndicatorManager.m */; };
-		BF525919F7279799F8FD58AF4C62BEEE /* FKConst.h in Headers */ = {isa = PBXBuildFile; fileRef = C64B98A3D024761DCBE0E670ADB1A388 /* FKConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF525919F7279799F8FD58AF4C62BEEE /* FKConst.h in Headers */ = {isa = PBXBuildFile; fileRef = B81DFFE828C4C40CC926A074BC3D201A /* FKConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C170B105236BF7692B64865FDE512490 /* Pods-FlutterGamesKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BCE2DB3F0BC8401D4BBC10D8762E79 /* Pods-FlutterGamesKit_Example-dummy.m */; };
-		C95D58AA3176E584786B2AB6BC55D628 /* FKKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89C62A600AC5D0F4AF9E4DCE3538B /* FKKeys.m */; };
-		CDD19072B587733A33F24CF688D8029A /* FKSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FE975EC81668C9D61B8D5390B84B4 /* FKSDK.m */; };
+		C95D58AA3176E584786B2AB6BC55D628 /* FKKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5D95DF783C2D7C6EC7D958C7CBD965 /* FKKeys.m */; };
+		CDD19072B587733A33F24CF688D8029A /* FKSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AC99B4BCF5BDA70BEC3497792206FD /* FKSDK.m */; };
 		CDEF12A353FEBC8FE4E2EA0D3FFAC615 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FC56CB36A2B53EB55FCDCCDF7A19ACEC /* AFURLRequestSerialization.m */; };
-		E39963EC0576470CCAFDD6CCF7C78238 /* UIDevice+Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 521744ACDB8D61F8CBD05756BCABDE4A /* UIDevice+Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E80DC11CE2F02BF8BB7988911FBF67A2 /* FKSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 973ECABBA9A18A2ECD4441FA6471FBC6 /* FKSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E39963EC0576470CCAFDD6CCF7C78238 /* UIDevice+Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B781FB09B91FF3B64A08998272AFE31 /* UIDevice+Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E80DC11CE2F02BF8BB7988911FBF67A2 /* FKSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE795FCF756A979F181AB19D657A75F /* FKSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8372DA8FDA0830EF5FF160493C0B37A /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 00751FC3948A1A9F1FFAB649018002D8 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA60B650164AE302DCEA5DFE4374526C /* FlutterGamesKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7972591595B32FD2CA9E2FED3A1024B1 /* FlutterGamesKit-dummy.m */; };
+		EA60B650164AE302DCEA5DFE4374526C /* FlutterGamesKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BFB9DB46253B99B30AE73FB42A35C5 /* FlutterGamesKit-dummy.m */; };
 		ED0B81FF1DEC0B138947EA93D22E5A4E /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C4036CC2F41439B5F3AA9EDFBA7AF998 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE3B8613CDD20D58260C22D21BC61F38 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C5AC68C3D65B56B8E58FC9150BE018 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3436BE40BF2F30A5D907064BBEC038D /* FKKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9669D8BACC945268DA854FCED5F82E /* FKKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F682F3C94D6AE7556E998E47C6911408 /* NSMutableDictionary+YX.h in Headers */ = {isa = PBXBuildFile; fileRef = 2830CB2044097E9EB1291B2478E1E4CA /* NSMutableDictionary+YX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3436BE40BF2F30A5D907064BBEC038D /* FKKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0921860C33AE7EB22654BE6DB88418 /* FKKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F682F3C94D6AE7556E998E47C6911408 /* NSMutableDictionary+YX.h in Headers */ = {isa = PBXBuildFile; fileRef = E068F289B13D7007439638745ADB5B94 /* NSMutableDictionary+YX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA57C7B9116769DBBCAEE173060683A3 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B612BD4EE4F3E96EDA4A2251F15EA64A /* AFImageDownloader.m */; };
-		FBFAA2815E2E3167A843060C7461EEAA /* NSString+JKDictionaryValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B7F3C714CB3E4B6FB1B56F3AFD0BAE /* NSString+JKDictionaryValue.m */; };
+		FBFAA2815E2E3167A843060C7461EEAA /* NSString+JKDictionaryValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 80179FA2E45C469132018F8900836158 /* NSString+JKDictionaryValue.m */; };
 		FF730340D4D99DBD2230B33ACB06A343 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		257186703671B9B11F619520FF53C683 /* PBXContainerItemProxy */ = {
+		3806D475B47EA4BB4390FDBA184C9D9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
-		2968F21BEDAA0C0ECCCD1C2B856744CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
-		};
-		CDB2CCE84C452B6578CDA2B663B4BB9E /* PBXContainerItemProxy */ = {
+		67D6F261D82C4C1B0B4129717EEDCCA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C2516094316085FC8F3982FD93853301;
 			remoteInfo = FlutterGamesKit;
 		};
+		B0B1195A379913C8CFA00B3866DDE228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00729A5847235A5E9A2D66A84FE5EDCB /* FlutterPluginRegistrant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FlutterPluginRegistrant.framework; path = FlutterGamesKit/Frameworks/FlutterPluginRegistrant.framework; sourceTree = "<group>"; };
 		00751FC3948A1A9F1FFAB649018002D8 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		042487133B516419EB913CF21AA18487 /* Pods-FlutterGamesKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlutterGamesKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0587DEB0F48B0C1A8B2789B2897009D7 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		05B7F3C714CB3E4B6FB1B56F3AFD0BAE /* NSString+JKDictionaryValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKDictionaryValue.m"; sourceTree = "<group>"; };
+		065155DD1C2CD86C079BA299AC7389EA /* url_launcher_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = url_launcher_ios.framework; path = FlutterGamesKit/Frameworks/url_launcher_ios.framework; sourceTree = "<group>"; };
 		06C226F9AC0ECB3E8ACF768A2FA7B887 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		087E14CFD01C52C8F320802FBE1C96AD /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		0C05F5F006DE5F94844F66F2A892B35D /* FlutterPluginRegistrant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FlutterPluginRegistrant.framework; path = FlutterGamesKit/Frameworks/FlutterPluginRegistrant.framework; sourceTree = "<group>"; };
+		0F343086CEE0E027A2FCE534FC9D115C /* flutter_boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = flutter_boost.framework; path = FlutterGamesKit/Frameworks/flutter_boost.framework; sourceTree = "<group>"; };
 		14DEE99F9E2A2A3C84E6EEECC8E4735F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		171B4884E9B0238CA0689FD61D8C97B5 /* FKRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKRouter.h; path = FlutterGamesKit/Classes/FKRouter.h; sourceTree = "<group>"; };
+		16EB266FC1AE150059B68EDB99427EE6 /* shared_preferences_foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = shared_preferences_foundation.framework; path = FlutterGamesKit/Frameworks/shared_preferences_foundation.framework; sourceTree = "<group>"; };
 		184C15B942C47068EFDF9A418C8CF769 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		1B1C804D8DC08E696BD9AF53099DDBA1 /* FlutterGamesKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterGamesKit-umbrella.h"; sourceTree = "<group>"; };
 		23C5AC68C3D65B56B8E58FC9150BE018 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		261594E8B28096939340700320B7D30B /* FlutterGamesKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterGamesKit-prefix.pch"; sourceTree = "<group>"; };
 		26BEF3ED4DA9B8AAE20161D6B17D9800 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		2830CB2044097E9EB1291B2478E1E4CA /* NSMutableDictionary+YX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+YX.h"; sourceTree = "<group>"; };
 		2A3E2CD3A24ADC744F7D0585EBA2B334 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		2D04917D5EBF66740EDEABC0C101EBB6 /* Pods-FlutterGamesKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterGamesKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2DB89C62A600AC5D0F4AF9E4DCE3538B /* FKKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKKeys.m; path = FlutterGamesKit/Classes/FKKeys.m; sourceTree = "<group>"; };
 		31FB51F7DEB07C68843C396B8C44B0FA /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		34AC99B4BCF5BDA70BEC3497792206FD /* FKSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKSDK.m; path = FlutterGamesKit/Classes/FKSDK.m; sourceTree = "<group>"; };
 		37757F8A2AA55AC2FBBA82419EA59281 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		37D5F2CEB9B6937C268DB26EEF62978D /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		38082307C0751FB7512FD7B4DCE0F0DF /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		3DC07265902CE85454DA4C435CD47B68 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		462826235CEA258AAA4561CE8CDB968D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		49581DB1CE74B350FA87B1F35FBA02B7 /* FlutterGamesKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlutterGamesKit-Info.plist"; sourceTree = "<group>"; };
 		4B93D780D83E013B9CF065117B6ABA80 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		4D374367B02633D4E59AADEE7FA4DAEB /* FlutterGamesKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterGamesKit.release.xcconfig; sourceTree = "<group>"; };
 		50E6CBFBD0305264D5446D381452785B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		51F79F7342BAFE8C39F74695933AA456 /* FlutterGamesKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlutterGamesKit.modulemap; sourceTree = "<group>"; };
-		521744ACDB8D61F8CBD05756BCABDE4A /* UIDevice+Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Device.h"; sourceTree = "<group>"; };
 		536C3EED4FA306EE3A3CC917259D28D2 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		551968D53DFAAFAEDE5205B7D5E3E4FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		56F2DAA5A927314FCD9FF7F43322EE63 /* FlutterGamesKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterGamesKit-umbrella.h"; sourceTree = "<group>"; };
+		56D10653230D257EA334369FB6BE0AC9 /* UIDevice+Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Device.m"; sourceTree = "<group>"; };
+		5B781FB09B91FF3B64A08998272AFE31 /* UIDevice+Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Device.h"; sourceTree = "<group>"; };
 		648A80C6763B46492C7A3ACEB109BCE4 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		69B7EA92FAAF1B2A551737DC8E4B7174 /* FlutterGamesKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterGamesKit.debug.xcconfig; sourceTree = "<group>"; };
 		6C1197F3DCEE9F3D89F6060F9028E180 /* Pods-FlutterGamesKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FlutterGamesKit_Example"; path = Pods_FlutterGamesKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F1CAE6108A1565C53D5928BBFA601EA /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = App.framework; path = FlutterGamesKit/Frameworks/App.framework; sourceTree = "<group>"; };
+		6CE795FCF756A979F181AB19D657A75F /* FKSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKSDK.h; path = FlutterGamesKit/Classes/FKSDK.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7414C0E00F412EA2F52E9AB1F5DB9BF0 /* webview_flutter_wkwebview.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = webview_flutter_wkwebview.framework; path = FlutterGamesKit/Frameworks/webview_flutter_wkwebview.framework; sourceTree = "<group>"; };
 		75ACF33252734108CC44AF5E36AAD396 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		77EAAF0A05E8F3ADAA649E0E81930453 /* shared_preferences_foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = shared_preferences_foundation.framework; path = FlutterGamesKit/Frameworks/shared_preferences_foundation.framework; sourceTree = "<group>"; };
-		7972591595B32FD2CA9E2FED3A1024B1 /* FlutterGamesKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlutterGamesKit-dummy.m"; sourceTree = "<group>"; };
-		7E9669D8BACC945268DA854FCED5F82E /* FKKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKKeys.h; path = FlutterGamesKit/Classes/FKKeys.h; sourceTree = "<group>"; };
+		75BFB9DB46253B99B30AE73FB42A35C5 /* FlutterGamesKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlutterGamesKit-dummy.m"; sourceTree = "<group>"; };
+		7A692DFF93D3B17ECEB218358958E08D /* FlutterGamesKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlutterGamesKit-Info.plist"; sourceTree = "<group>"; };
 		7F0BFDBFF364B89C78F848805E0A9DE7 /* Pods-FlutterGamesKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlutterGamesKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		80179FA2E45C469132018F8900836158 /* NSString+JKDictionaryValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKDictionaryValue.m"; sourceTree = "<group>"; };
 		842F909230AAC675241531ECA8AEE4A5 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		89E909443A20B13103B8D2B89E899297 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
-		8B75BBE004D8A453FA45009198AB4DAC /* NSString+JKDictionaryValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+JKDictionaryValue.h"; sourceTree = "<group>"; };
 		8B9E383A054E7E1C274AF007FD183F8D /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		8E2DD89AB0F81BDA8E59943C89131288 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		8EE29478595C35D1DBF6CB2EE1BC11D5 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		91B41D4134A86D7DD242381E296B0C6E /* FKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKManager.h; path = FlutterGamesKit/Classes/FKManager.h; sourceTree = "<group>"; };
 		929EE54BD0D1854BBCCA902B94780F8F /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		973ECABBA9A18A2ECD4441FA6471FBC6 /* FKSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKSDK.h; path = FlutterGamesKit/Classes/FKSDK.h; sourceTree = "<group>"; };
-		9B315DB8D2558EDBD3A7F1DED7A0FBD1 /* path_provider_foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = path_provider_foundation.framework; path = FlutterGamesKit/Frameworks/path_provider_foundation.framework; sourceTree = "<group>"; };
+		96C058A24D7F1DDADB65406B2F07552B /* FlutterGamesKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FlutterGamesKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		995CE21803032D712080C5EA2C312B0A /* NSMutableDictionary+YX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+YX.m"; sourceTree = "<group>"; };
 		9C617FE811A91EA69182671BD494E324 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FCCAE18F1D323F11664029808697D24 /* FKRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKRouter.m; path = FlutterGamesKit/Classes/FKRouter.m; sourceTree = "<group>"; };
+		9FC7A09F67034B650107649136F5B3F4 /* path_provider_foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = path_provider_foundation.framework; path = FlutterGamesKit/Frameworks/path_provider_foundation.framework; sourceTree = "<group>"; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B0AF0DE2BD9E6FABC0D47C0DA60320 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		A8A6DA31898EE0DFA6A234C1D7CD4C22 /* FlutterGamesKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterGamesKit-prefix.pch"; sourceTree = "<group>"; };
+		AA0921860C33AE7EB22654BE6DB88418 /* FKKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKKeys.h; path = FlutterGamesKit/Classes/FKKeys.h; sourceTree = "<group>"; };
+		AAEF8FC07C837B7D2519927FE01161FA /* FKRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKRouter.m; path = FlutterGamesKit/Classes/FKRouter.m; sourceTree = "<group>"; };
+		ACBA5D8B512CD5F8507817F3781432F2 /* FKRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKRouter.h; path = FlutterGamesKit/Classes/FKRouter.h; sourceTree = "<group>"; };
+		B136F555A5BAD511B9F49A695DFC3169 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = FlutterGamesKit/Frameworks/SVProgressHUD.framework; sourceTree = "<group>"; };
 		B4D9CF71DA91C2758689E5548AFB791C /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		B612BD4EE4F3E96EDA4A2251F15EA64A /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		BB4826E850CC22BB38C3B720E767453B /* FlutterGamesKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FlutterGamesKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BB9CF767081FFBE548A1263DA5B44D16 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = FlutterGamesKit/Frameworks/SVProgressHUD.framework; sourceTree = "<group>"; };
+		B81DFFE828C4C40CC926A074BC3D201A /* FKConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKConst.h; path = FlutterGamesKit/Classes/FKConst.h; sourceTree = "<group>"; };
+		BDC80E10ADA029E28C0B694D91FBD88C /* FKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKManager.h; path = FlutterGamesKit/Classes/FKManager.h; sourceTree = "<group>"; };
 		BF9C8613E3D05DC796E6070524CADD2D /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		C3600A67B33B1FED00AE88B43D1244F6 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		C4036CC2F41439B5F3AA9EDFBA7AF998 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		C64B98A3D024761DCBE0E670ADB1A388 /* FKConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKConst.h; path = FlutterGamesKit/Classes/FKConst.h; sourceTree = "<group>"; };
+		C73499734BCF1518796C5EB2EBC1DEBF /* share_plus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = share_plus.framework; path = FlutterGamesKit/Frameworks/share_plus.framework; sourceTree = "<group>"; };
+		C862368DD6E5387AF6CFC1B7106FFADB /* FlutterGamesKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlutterGamesKit.modulemap; sourceTree = "<group>"; };
 		C973352F140219B0F350D13B66B6B43D /* FlutterGamesKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlutterGamesKit; path = FlutterGamesKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2D8C6F89E11A531AD7544C065F4DDC /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		CBBCB9C2372191F558496799FC7703E9 /* UIDevice+Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Device.m"; sourceTree = "<group>"; };
 		CBFDF83F2C855F29352862D71100C1B2 /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AFNetworking.h"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		CF27C88E3CB2FEA3533CE6E0FAFFBBA3 /* NSMutableDictionary+YX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+YX.m"; sourceTree = "<group>"; };
 		D0730868BFD57958E896FE402D758ACB /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		D2BCE2DB3F0BC8401D4BBC10D8762E79 /* Pods-FlutterGamesKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlutterGamesKit_Example-dummy.m"; sourceTree = "<group>"; };
+		D449B27A8FF41F88EBC400E523DAB85E /* FlutterGamesKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterGamesKit.release.xcconfig; sourceTree = "<group>"; };
 		D655AE14CB5B94D33CDF7B47A889FF87 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		D79FE975EC81668C9D61B8D5390B84B4 /* FKSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKSDK.m; path = FlutterGamesKit/Classes/FKSDK.m; sourceTree = "<group>"; };
+		DB2A4C0C554E1C78E366A4B8A8ED863D /* webview_flutter_wkwebview.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = webview_flutter_wkwebview.framework; path = FlutterGamesKit/Frameworks/webview_flutter_wkwebview.framework; sourceTree = "<group>"; };
+		DBB1F1589CDDAF650E13021D48CC684F /* NSString+JKDictionaryValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+JKDictionaryValue.h"; sourceTree = "<group>"; };
 		DDEC7DDCE1CA5DAC8D45BDA4DEF98103 /* Pods-FlutterGamesKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlutterGamesKit_Example.modulemap"; sourceTree = "<group>"; };
+		E068F289B13D7007439638745ADB5B94 /* NSMutableDictionary+YX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+YX.h"; sourceTree = "<group>"; };
 		E0C5F299CDD4219A0F5A63827D34D2E1 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		E156D8AD339A816C573F665D47CD69F4 /* share_plus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = share_plus.framework; path = FlutterGamesKit/Frameworks/share_plus.framework; sourceTree = "<group>"; };
 		E36B38DF2A3DC6A9254634C4EB8DF0CB /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
-		E61D89EEFE19EC37AB1514387EB03B25 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = FlutterGamesKit/Frameworks/Flutter.framework; sourceTree = "<group>"; };
 		E6FADE30D6E0DCB6CFBB53A6709F6418 /* Pods-FlutterGamesKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlutterGamesKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E952287A5793EF7963040E107AFFCC68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E98805D85FA6109642B405A2E2742CF9 /* Pods-FlutterGamesKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterGamesKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EEA1B8D2DD068A6355E5E09B40B3E9F8 /* flutter_boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = flutter_boost.framework; path = FlutterGamesKit/Frameworks/flutter_boost.framework; sourceTree = "<group>"; };
+		E9CB5D6A0BF6DF91480D9255ED378EDA /* FlutterGamesKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterGamesKit.debug.xcconfig; sourceTree = "<group>"; };
+		EB5D95DF783C2D7C6EC7D958C7CBD965 /* FKKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKKeys.m; path = FlutterGamesKit/Classes/FKKeys.m; sourceTree = "<group>"; };
+		EE76315F2496049A14D4DB4DB4CBECF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F211E6606E4572E93CDA52D0270ACD89 /* Pods-FlutterGamesKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterGamesKit_Example-Info.plist"; sourceTree = "<group>"; };
 		F448592D4E6615A218AE2DA8C09EFACF /* Pods-FlutterGamesKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterGamesKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F45C35A08B33860F0413C044C9A9600F /* url_launcher_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = url_launcher_ios.framework; path = FlutterGamesKit/Frameworks/url_launcher_ios.framework; sourceTree = "<group>"; };
+		FBE4897079F5ED1FC646065B8642EF69 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = FlutterGamesKit/Frameworks/Flutter.framework; sourceTree = "<group>"; };
 		FC56CB36A2B53EB55FCDCCDF7A19ACEC /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		FC5D67C4903542379A45E2A9E3AD512A /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		FF874C1080C1F37230B2F802D48B98E9 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = App.framework; path = FlutterGamesKit/Frameworks/App.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +208,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		007AA5E8EDCFE0A796610BE1CC010EE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF874C1080C1F37230B2F802D48B98E9 /* App.framework */,
+				FBE4897079F5ED1FC646065B8642EF69 /* Flutter.framework */,
+				0F343086CEE0E027A2FCE534FC9D115C /* flutter_boost.framework */,
+				00729A5847235A5E9A2D66A84FE5EDCB /* FlutterPluginRegistrant.framework */,
+				9FC7A09F67034B650107649136F5B3F4 /* path_provider_foundation.framework */,
+				C73499734BCF1518796C5EB2EBC1DEBF /* share_plus.framework */,
+				16EB266FC1AE150059B68EDB99427EE6 /* shared_preferences_foundation.framework */,
+				B136F555A5BAD511B9F49A695DFC3169 /* SVProgressHUD.framework */,
+				065155DD1C2CD86C079BA299AC7389EA /* url_launcher_ios.framework */,
+				DB2A4C0C554E1C78E366A4B8A8ED863D /* webview_flutter_wkwebview.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		09410C77D811DDFF2218266C7A4D123E /* Security */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,16 +232,6 @@
 				536C3EED4FA306EE3A3CC917259D28D2 /* AFSecurityPolicy.m */,
 			);
 			name = Security;
-			sourceTree = "<group>";
-		};
-		11D86F0FCD0FFE35D590FDE9438F2C05 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BB4826E850CC22BB38C3B720E767453B /* FlutterGamesKit.podspec */,
-				462826235CEA258AAA4561CE8CDB968D /* LICENSE */,
-				551968D53DFAAFAEDE5205B7D5E3E4FF /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		1CD2E58BFA94F98B90F9942547BB7005 /* Support Files */ = {
@@ -242,39 +249,28 @@
 			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
-		334DA9C898D0C2A30E42D690155A2646 /* FlutterGamesKit */ = {
+		1E0EA36CE553E41FAD3B1391CAF9C0DD /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				C64B98A3D024761DCBE0E670ADB1A388 /* FKConst.h */,
-				7E9669D8BACC945268DA854FCED5F82E /* FKKeys.h */,
-				2DB89C62A600AC5D0F4AF9E4DCE3538B /* FKKeys.m */,
-				91B41D4134A86D7DD242381E296B0C6E /* FKManager.h */,
-				171B4884E9B0238CA0689FD61D8C97B5 /* FKRouter.h */,
-				9FCCAE18F1D323F11664029808697D24 /* FKRouter.m */,
-				973ECABBA9A18A2ECD4441FA6471FBC6 /* FKSDK.h */,
-				D79FE975EC81668C9D61B8D5390B84B4 /* FKSDK.m */,
-				B26B38559D924E96BFD8ACEB6CBCC74D /* Categories */,
-				F07DE7C515299CCD25F85A0C6808DDFB /* Frameworks */,
-				11D86F0FCD0FFE35D590FDE9438F2C05 /* Pod */,
-				39C676B3ED0235373D46DF86D847285B /* Support Files */,
+				E068F289B13D7007439638745ADB5B94 /* NSMutableDictionary+YX.h */,
+				995CE21803032D712080C5EA2C312B0A /* NSMutableDictionary+YX.m */,
+				DBB1F1589CDDAF650E13021D48CC684F /* NSString+JKDictionaryValue.h */,
+				80179FA2E45C469132018F8900836158 /* NSString+JKDictionaryValue.m */,
+				5B781FB09B91FF3B64A08998272AFE31 /* UIDevice+Device.h */,
+				56D10653230D257EA334369FB6BE0AC9 /* UIDevice+Device.m */,
 			);
-			name = FlutterGamesKit;
-			path = ../..;
+			name = Categories;
+			path = FlutterGamesKit/Classes/Categories;
 			sourceTree = "<group>";
 		};
-		39C676B3ED0235373D46DF86D847285B /* Support Files */ = {
+		30E4C7519B9AE75A0A5921D04D8B521F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				51F79F7342BAFE8C39F74695933AA456 /* FlutterGamesKit.modulemap */,
-				7972591595B32FD2CA9E2FED3A1024B1 /* FlutterGamesKit-dummy.m */,
-				49581DB1CE74B350FA87B1F35FBA02B7 /* FlutterGamesKit-Info.plist */,
-				A8A6DA31898EE0DFA6A234C1D7CD4C22 /* FlutterGamesKit-prefix.pch */,
-				56F2DAA5A927314FCD9FF7F43322EE63 /* FlutterGamesKit-umbrella.h */,
-				69B7EA92FAAF1B2A551737DC8E4B7174 /* FlutterGamesKit.debug.xcconfig */,
-				4D374367B02633D4E59AADEE7FA4DAEB /* FlutterGamesKit.release.xcconfig */,
+				96C058A24D7F1DDADB65406B2F07552B /* FlutterGamesKit.podspec */,
+				E952287A5793EF7963040E107AFFCC68 /* LICENSE */,
+				EE76315F2496049A14D4DB4DB4CBECF3 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FlutterGamesKit";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -288,7 +284,7 @@
 		5F212F16378E03DDA245A97C88F8C488 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				334DA9C898D0C2A30E42D690155A2646 /* FlutterGamesKit */,
+				AAEFA1480F685518254F3192576CFE1B /* FlutterGamesKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -332,6 +328,34 @@
 			name = NSURLSession;
 			sourceTree = "<group>";
 		};
+		9DD4675377610EF803F447A9E9A4E12C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				007AA5E8EDCFE0A796610BE1CC010EE9 /* Frameworks */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		AAEFA1480F685518254F3192576CFE1B /* FlutterGamesKit */ = {
+			isa = PBXGroup;
+			children = (
+				B81DFFE828C4C40CC926A074BC3D201A /* FKConst.h */,
+				AA0921860C33AE7EB22654BE6DB88418 /* FKKeys.h */,
+				EB5D95DF783C2D7C6EC7D958C7CBD965 /* FKKeys.m */,
+				BDC80E10ADA029E28C0B694D91FBD88C /* FKManager.h */,
+				ACBA5D8B512CD5F8507817F3781432F2 /* FKRouter.h */,
+				AAEF8FC07C837B7D2519927FE01161FA /* FKRouter.m */,
+				6CE795FCF756A979F181AB19D657A75F /* FKSDK.h */,
+				34AC99B4BCF5BDA70BEC3497792206FD /* FKSDK.m */,
+				1E0EA36CE553E41FAD3B1391CAF9C0DD /* Categories */,
+				9DD4675377610EF803F447A9E9A4E12C /* Main */,
+				30E4C7519B9AE75A0A5921D04D8B521F /* Pod */,
+				B1E277AD76BFB40E2E7652D428F19F57 /* Support Files */,
+			);
+			name = FlutterGamesKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		ABA2E76060944DD25EC9AA24EFF957BA /* Pods-FlutterGamesKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -349,18 +373,19 @@
 			path = "Target Support Files/Pods-FlutterGamesKit_Example";
 			sourceTree = "<group>";
 		};
-		B26B38559D924E96BFD8ACEB6CBCC74D /* Categories */ = {
+		B1E277AD76BFB40E2E7652D428F19F57 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2830CB2044097E9EB1291B2478E1E4CA /* NSMutableDictionary+YX.h */,
-				CF27C88E3CB2FEA3533CE6E0FAFFBBA3 /* NSMutableDictionary+YX.m */,
-				8B75BBE004D8A453FA45009198AB4DAC /* NSString+JKDictionaryValue.h */,
-				05B7F3C714CB3E4B6FB1B56F3AFD0BAE /* NSString+JKDictionaryValue.m */,
-				521744ACDB8D61F8CBD05756BCABDE4A /* UIDevice+Device.h */,
-				CBBCB9C2372191F558496799FC7703E9 /* UIDevice+Device.m */,
+				C862368DD6E5387AF6CFC1B7106FFADB /* FlutterGamesKit.modulemap */,
+				75BFB9DB46253B99B30AE73FB42A35C5 /* FlutterGamesKit-dummy.m */,
+				7A692DFF93D3B17ECEB218358958E08D /* FlutterGamesKit-Info.plist */,
+				261594E8B28096939340700320B7D30B /* FlutterGamesKit-prefix.pch */,
+				1B1C804D8DC08E696BD9AF53099DDBA1 /* FlutterGamesKit-umbrella.h */,
+				E9CB5D6A0BF6DF91480D9255ED378EDA /* FlutterGamesKit.debug.xcconfig */,
+				D449B27A8FF41F88EBC400E523DAB85E /* FlutterGamesKit.release.xcconfig */,
 			);
-			name = Categories;
-			path = FlutterGamesKit/Classes/Categories;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FlutterGamesKit";
 			sourceTree = "<group>";
 		};
 		B580EA7CF70EB35BD42257A17D958932 /* Pods */ = {
@@ -426,23 +451,6 @@
 				2A3E2CD3A24ADC744F7D0585EBA2B334 /* AFURLResponseSerialization.m */,
 			);
 			name = Serialization;
-			sourceTree = "<group>";
-		};
-		F07DE7C515299CCD25F85A0C6808DDFB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6F1CAE6108A1565C53D5928BBFA601EA /* App.framework */,
-				E61D89EEFE19EC37AB1514387EB03B25 /* Flutter.framework */,
-				EEA1B8D2DD068A6355E5E09B40B3E9F8 /* flutter_boost.framework */,
-				0C05F5F006DE5F94844F66F2A892B35D /* FlutterPluginRegistrant.framework */,
-				9B315DB8D2558EDBD3A7F1DED7A0FBD1 /* path_provider_foundation.framework */,
-				E156D8AD339A816C573F665D47CD69F4 /* share_plus.framework */,
-				77EAAF0A05E8F3ADAA649E0E81930453 /* shared_preferences_foundation.framework */,
-				BB9CF767081FFBE548A1263DA5B44D16 /* SVProgressHUD.framework */,
-				F45C35A08B33860F0413C044C9A9600F /* url_launcher_ios.framework */,
-				7414C0E00F412EA2F52E9AB1F5DB9BF0 /* webview_flutter_wkwebview.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F7B0C907F31D1F1746138475CA9C1023 /* AFNetworking */ = {
@@ -546,8 +554,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				390BCDE599DC491A9DDF6E9334B3D0AD /* PBXTargetDependency */,
-				3CAE2210704ABC4FD34377259C52501F /* PBXTargetDependency */,
+				C58ACF7E703665D74CDC7FDE2D95FABB /* PBXTargetDependency */,
+				A225CF46EB9669E7BDAD7E42D52C1FBC /* PBXTargetDependency */,
 			);
 			name = "Pods-FlutterGamesKit_Example";
 			productName = Pods_FlutterGamesKit_Example;
@@ -566,7 +574,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0BCF9802A9327F59BB3FDE3044155F6A /* PBXTargetDependency */,
+				5239C24020FC27D77A79DDCBD037D1BA /* PBXTargetDependency */,
 			);
 			name = FlutterGamesKit;
 			productName = FlutterGamesKit;
@@ -675,30 +683,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0BCF9802A9327F59BB3FDE3044155F6A /* PBXTargetDependency */ = {
+		5239C24020FC27D77A79DDCBD037D1BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 257186703671B9B11F619520FF53C683 /* PBXContainerItemProxy */;
+			targetProxy = B0B1195A379913C8CFA00B3866DDE228 /* PBXContainerItemProxy */;
 		};
-		390BCDE599DC491A9DDF6E9334B3D0AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 2968F21BEDAA0C0ECCCD1C2B856744CB /* PBXContainerItemProxy */;
-		};
-		3CAE2210704ABC4FD34377259C52501F /* PBXTargetDependency */ = {
+		A225CF46EB9669E7BDAD7E42D52C1FBC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlutterGamesKit;
 			target = C2516094316085FC8F3982FD93853301 /* FlutterGamesKit */;
-			targetProxy = CDB2CCE84C452B6578CDA2B663B4BB9E /* PBXContainerItemProxy */;
+			targetProxy = 67D6F261D82C4C1B0B4129717EEDCCA7 /* PBXContainerItemProxy */;
+		};
+		C58ACF7E703665D74CDC7FDE2D95FABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 3806D475B47EA4BB4390FDBA184C9D9C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		12AFCD43840289DBBF13A27ED8ADC0E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69B7EA92FAAF1B2A551737DC8E4B7174 /* FlutterGamesKit.debug.xcconfig */;
+			baseConfigurationReference = E9CB5D6A0BF6DF91480D9255ED378EDA /* FlutterGamesKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -799,7 +807,7 @@
 		};
 		34A6C4A2C228D88DDC259FDBCCF06D94 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D374367B02633D4E59AADEE7FA4DAEB /* FlutterGamesKit.release.xcconfig */;
+			baseConfigurationReference = D449B27A8FF41F88EBC400E523DAB85E /* FlutterGamesKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

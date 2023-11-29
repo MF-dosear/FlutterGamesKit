@@ -177,6 +177,7 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FlutterGamesKit/FlutterGamesKit.framework"
   install_framework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/App.framework"
   install_framework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/Flutter.framework"
   install_framework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/flutter_boost.framework"
@@ -186,10 +187,10 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/SVProgressHUD.framework"
   install_framework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/url_launcher_ios.framework"
   install_framework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/webview_flutter_wkwebview.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FlutterGamesKit/FlutterGamesKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FlutterGamesKit/FlutterGamesKit.framework"
   install_framework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/App.framework"
   install_framework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/Flutter.framework"
   install_framework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/flutter_boost.framework"
@@ -199,7 +200,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/SVProgressHUD.framework"
   install_framework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/url_launcher_ios.framework"
   install_framework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/webview_flutter_wkwebview.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FlutterGamesKit/FlutterGamesKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
