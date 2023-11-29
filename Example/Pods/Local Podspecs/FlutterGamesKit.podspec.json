@@ -23,10 +23,10 @@
     "VALID_ARCHS[sdk=iphonesimulator*]": ""
   },
   "source_files": [
-    "FlutterGameKit/Classes/**/*"
+    "FlutterGamesKit/Classes/**/*"
   ],
   "vendored_frameworks": [
-    "FlutterGameKit/Frameworks/*.framework"
+    "FlutterGamesKit/Frameworks/*.framework"
   ],
   "dependencies": {
     "AFNetworking": [
