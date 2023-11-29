@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - FlutterGamesKit (1.0.1):
+  - FlutterGamesKit (1.0.2):
     - AFNetworking (~> 4.0.1)
 
 DEPENDENCIES:
@@ -30,7 +30,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  FlutterGamesKit: 6b82158025d58128d438c66d8be407d4e7476435
+  FlutterGamesKit: f521b983ed79cdb3081fcae98f2ccda12a1a147c
 
 PODFILE CHECKSUM: 9ea1999927442a712852953f50433e798f508b92
 
