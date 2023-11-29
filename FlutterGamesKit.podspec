@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FlutterGamesKit'
   s.platform         = :ios, '12.0'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'Flutter 版本游戏SDK'
 
   s.description      = <<-DESC
