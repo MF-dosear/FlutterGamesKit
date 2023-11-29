@@ -22,7 +22,7 @@ pod 'FlutterGamesKit'
 
 ## Author
 
-罗小黑不吹, dosear@qq.com
+罗小黑不吹, dosear@qq.com, http://www.dosear.cn
 
 ## Flutter 游戏 SDK iOS、Android双端
 
