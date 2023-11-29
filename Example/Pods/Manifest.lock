@@ -16,6 +16,10 @@ PODS:
     - AFNetworking/NSURLSession
   - FlutterGamesKit (1.0.3):
     - AFNetworking (~> 4.0.1)
+    - SVProgressHUD (~> 2.3.1)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
 
 DEPENDENCIES:
   - FlutterGamesKit (from `../`)
@@ -23,6 +27,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - SVProgressHUD
 
 EXTERNAL SOURCES:
   FlutterGamesKit:
@@ -30,7 +35,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  FlutterGamesKit: cc1a4ad025d64a61276fad095526bb02dd03a1a1
+  FlutterGamesKit: d97f7a030d2da1f47f2fecc7b5216ece9da4d7ca
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
 
 PODFILE CHECKSUM: 9ea1999927442a712852953f50433e798f508b92
 

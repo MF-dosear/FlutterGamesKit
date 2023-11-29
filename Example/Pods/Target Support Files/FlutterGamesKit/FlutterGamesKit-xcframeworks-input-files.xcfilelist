@@ -6,6 +6,5 @@ ${PODS_ROOT}/../../FlutterGamesKit/Frameworks/flutter_boost.xcframework
 ${PODS_ROOT}/../../FlutterGamesKit/Frameworks/path_provider_foundation.xcframework
 ${PODS_ROOT}/../../FlutterGamesKit/Frameworks/shared_preferences_foundation.xcframework
 ${PODS_ROOT}/../../FlutterGamesKit/Frameworks/share_plus.xcframework
-${PODS_ROOT}/../../FlutterGamesKit/Frameworks/SVProgressHUD.xcframework
 ${PODS_ROOT}/../../FlutterGamesKit/Frameworks/url_launcher_ios.xcframework
 ${PODS_ROOT}/../../FlutterGamesKit/Frameworks/webview_flutter_wkwebview.xcframework

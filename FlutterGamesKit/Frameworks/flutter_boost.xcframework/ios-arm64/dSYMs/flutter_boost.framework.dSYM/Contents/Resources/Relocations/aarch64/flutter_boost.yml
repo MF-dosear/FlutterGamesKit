@@ -1,0 +1,283 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/paul/Desktop/Flutter/module/module/framework/Profile/iphoneos/Profile-iphoneos/flutter_boost/flutter_boost.framework/flutter_boost'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x56C3B, size: 0x8, addend: 0x0, symName: _flutter_boostVersionString, symObjAddr: 0x0, symBinAddr: 0x10788, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x56C70, size: 0x8, addend: 0x0, symName: _flutter_boostVersionNumber, symObjAddr: 0x30, symBinAddr: 0x107B8, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x56CAD, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainerManager init]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x88 }
+  - { offsetInCU: 0xA0, offset: 0x56D26, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainerManager init]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x88 }
+  - { offsetInCU: 0xD7, offset: 0x56D5D, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainerManager addContainer:forUniqueId:]', symObjAddr: 0x88, symBinAddr: 0x8088, symSize: 0x74 }
+  - { offsetInCU: 0x12A, offset: 0x56DB0, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainerManager activeContainer:forUniqueId:]', symObjAddr: 0xFC, symBinAddr: 0x80FC, symSize: 0x108 }
+  - { offsetInCU: 0x180, offset: 0x56E06, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainerManager removeContainerByUniqueId:]', symObjAddr: 0x204, symBinAddr: 0x8204, symSize: 0xBC }
+  - { offsetInCU: 0x18B, offset: 0x56E11, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainerManager activeContainer:forUniqueId:].cold.1', symObjAddr: 0x4CC, symBinAddr: 0xEF90, symSize: 0x28 }
+  - { offsetInCU: 0x1A3, offset: 0x56E29, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainerManager removeContainerByUniqueId:]', symObjAddr: 0x204, symBinAddr: 0x8204, symSize: 0xBC }
+  - { offsetInCU: 0x1F6, offset: 0x56E7C, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainerManager findContainerByUniqueId:]', symObjAddr: 0x2C0, symBinAddr: 0x82C0, symSize: 0x6C }
+  - { offsetInCU: 0x23D, offset: 0x56EC3, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainerManager getTopContainer]', symObjAddr: 0x32C, symBinAddr: 0x832C, symSize: 0x80 }
+  - { offsetInCU: 0x274, offset: 0x56EFA, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainerManager isTopContainer:]', symObjAddr: 0x3AC, symBinAddr: 0x83AC, symSize: 0x8C }
+  - { offsetInCU: 0x2CB, offset: 0x56F51, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainerManager containerSize]', symObjAddr: 0x438, symBinAddr: 0x8438, symSize: 0x3C }
+  - { offsetInCU: 0x302, offset: 0x56F88, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainerManager allContainers]', symObjAddr: 0x474, symBinAddr: 0x8474, symSize: 0x8 }
+  - { offsetInCU: 0x339, offset: 0x56FBF, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainerManager setAllContainers:]', symObjAddr: 0x47C, symBinAddr: 0x847C, symSize: 0xC }
+  - { offsetInCU: 0x37A, offset: 0x57000, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainerManager activeContainers]', symObjAddr: 0x488, symBinAddr: 0x8488, symSize: 0x8 }
+  - { offsetInCU: 0x3B1, offset: 0x57037, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainerManager setActiveContainers:]', symObjAddr: 0x490, symBinAddr: 0x8490, symSize: 0xC }
+  - { offsetInCU: 0x3F2, offset: 0x57078, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainerManager .cxx_destruct]', symObjAddr: 0x49C, symBinAddr: 0x849C, symSize: 0x30 }
+  - { offsetInCU: 0x27, offset: 0x5712B, size: 0x8, addend: 0x0, symName: '-[FlutterViewController(bridgeToviewDidDisappear) bridge_viewDidDisappear:]', symObjAddr: 0x0, symBinAddr: 0x84CC, symSize: 0x4C }
+  - { offsetInCU: 0x28F, offset: 0x57393, size: 0x8, addend: 0x0, symName: '-[FlutterViewController(bridgeToviewDidDisappear) bridge_viewDidDisappear:]', symObjAddr: 0x0, symBinAddr: 0x84CC, symSize: 0x4C }
+  - { offsetInCU: 0x2D2, offset: 0x573D6, size: 0x8, addend: 0x0, symName: '-[FlutterViewController(bridgeToviewDidDisappear) bridge_viewWillAppear:]', symObjAddr: 0x4C, symBinAddr: 0x8518, symSize: 0x34 }
+  - { offsetInCU: 0x315, offset: 0x57419, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer init]', symObjAddr: 0x80, symBinAddr: 0x854C, symSize: 0xF8 }
+  - { offsetInCU: 0x34C, offset: 0x57450, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer initWithProject:nibName:bundle:]', symObjAddr: 0x178, symBinAddr: 0x8644, symSize: 0xF8 }
+  - { offsetInCU: 0x3B3, offset: 0x574B7, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer initWithCoder:]', symObjAddr: 0x270, symBinAddr: 0x873C, symSize: 0x50 }
+  - { offsetInCU: 0x3FA, offset: 0x574FE, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer initWithNibName:bundle:]', symObjAddr: 0x2C0, symBinAddr: 0x878C, symSize: 0xE0 }
+  - { offsetInCU: 0x451, offset: 0x57555, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer setName:uniqueId:params:opaque:]', symObjAddr: 0x3A0, symBinAddr: 0x886C, symSize: 0x160 }
+  - { offsetInCU: 0x4C4, offset: 0x575C8, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer setupEventListeningFromFlutter]', symObjAddr: 0x500, symBinAddr: 0x89CC, symSize: 0x120 }
+  - { offsetInCU: 0x507, offset: 0x5760B, size: 0x8, addend: 0x0, symName: '___56-[FBFlutterViewContainer setupEventListeningFromFlutter]_block_invoke', symObjAddr: 0x620, symBinAddr: 0x8AEC, symSize: 0x11C }
+  - { offsetInCU: 0x5C8, offset: 0x576CC, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x73C, symBinAddr: 0x8C08, symSize: 0xC }
+  - { offsetInCU: 0x5F1, offset: 0x576F5, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x748, symBinAddr: 0x8C14, symSize: 0x8 }
+  - { offsetInCU: 0x610, offset: 0x57714, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer uniqueIDString]', symObjAddr: 0x750, symBinAddr: 0x8C1C, symSize: 0x4 }
+  - { offsetInCU: 0x645, offset: 0x57749, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer _setup]', symObjAddr: 0x754, symBinAddr: 0x8C20, symSize: 0x64 }
+  - { offsetInCU: 0x678, offset: 0x5777C, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer didMoveToParentViewController:]', symObjAddr: 0x7B8, symBinAddr: 0x8C84, symSize: 0x6C }
+  - { offsetInCU: 0x6BB, offset: 0x577BF, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer dismissViewControllerAnimated:completion:]', symObjAddr: 0x824, symBinAddr: 0x8CF0, symSize: 0xA8 }
+  - { offsetInCU: 0x70E, offset: 0x57812, size: 0x8, addend: 0x0, symName: '___67-[FBFlutterViewContainer dismissViewControllerAnimated:completion:]_block_invoke', symObjAddr: 0x8CC, symBinAddr: 0x8D98, symSize: 0x38 }
+  - { offsetInCU: 0x769, offset: 0x5786D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x904, symBinAddr: 0x8DD0, symSize: 0x34 }
+  - { offsetInCU: 0x792, offset: 0x57896, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x938, symBinAddr: 0x8E04, symSize: 0x28 }
+  - { offsetInCU: 0x7B1, offset: 0x578B5, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer dealloc]', symObjAddr: 0x960, symBinAddr: 0x8E2C, symSize: 0xB8 }
+  - { offsetInCU: 0x7F0, offset: 0x578F4, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer notifyWillDealloc]', symObjAddr: 0xA18, symBinAddr: 0x8EE4, symSize: 0x88 }
+  - { offsetInCU: 0x823, offset: 0x57927, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer viewDidLoad]', symObjAddr: 0xAA0, symBinAddr: 0x8F6C, symSize: 0x128 }
+  - { offsetInCU: 0x856, offset: 0x5795A, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer handleLeftEdgeGesture:]', symObjAddr: 0xBC8, symBinAddr: 0x9094, symSize: 0xA0 }
+  - { offsetInCU: 0x895, offset: 0x57999, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer isFlutterViewAttatched]', symObjAddr: 0xC68, symBinAddr: 0x9134, symSize: 0xCC }
+  - { offsetInCU: 0x8CC, offset: 0x579D0, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer attatchFlutterEngine]', symObjAddr: 0xD34, symBinAddr: 0x9200, symSize: 0xCC }
+  - { offsetInCU: 0x8FF, offset: 0x57A03, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer detachFlutterEngineIfNeeded]', symObjAddr: 0xE00, symBinAddr: 0x92CC, symSize: 0xFC }
+  - { offsetInCU: 0x932, offset: 0x57A36, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer surfaceUpdated:]', symObjAddr: 0xEFC, symBinAddr: 0x93C8, symSize: 0xAC }
+  - { offsetInCU: 0x977, offset: 0x57A7B, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer updateViewportMetrics]', symObjAddr: 0xFA8, symBinAddr: 0x9474, symSize: 0x9C }
+  - { offsetInCU: 0x9AB, offset: 0x57AAF, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer viewDidLayoutSubviews]', symObjAddr: 0x1044, symBinAddr: 0x9510, symSize: 0x34 }
+  - { offsetInCU: 0x9DF, offset: 0x57AE3, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer viewWillAppear:]', symObjAddr: 0x1078, symBinAddr: 0x9544, symSize: 0xE8 }
+  - { offsetInCU: 0xA24, offset: 0x57B28, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer viewDidAppear:]', symObjAddr: 0x1160, symBinAddr: 0x962C, symSize: 0x178 }
+  - { offsetInCU: 0xA69, offset: 0x57B6D, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer viewWillDisappear:]', symObjAddr: 0x12D8, symBinAddr: 0x97A4, symSize: 0x90 }
+  - { offsetInCU: 0xAAE, offset: 0x57BB2, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer viewDidDisappear:]', symObjAddr: 0x1368, symBinAddr: 0x9834, symSize: 0xB0 }
+  - { offsetInCU: 0xAF3, offset: 0x57BF7, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer installSplashScreenViewIfNecessary]', symObjAddr: 0x1418, symBinAddr: 0x98E4, symSize: 0x4 }
+  - { offsetInCU: 0xB23, offset: 0x57C27, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer loadDefaultSplashScreenView]', symObjAddr: 0x141C, symBinAddr: 0x98E8, symSize: 0x8 }
+  - { offsetInCU: 0xB57, offset: 0x57C5B, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer name]', symObjAddr: 0x1424, symBinAddr: 0x98F0, symSize: 0x10 }
+  - { offsetInCU: 0xB8E, offset: 0x57C92, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer setName:]', symObjAddr: 0x1434, symBinAddr: 0x9900, symSize: 0xC }
+  - { offsetInCU: 0xBCD, offset: 0x57CD1, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer disablePopGesture]', symObjAddr: 0x1440, symBinAddr: 0x990C, symSize: 0x10 }
+  - { offsetInCU: 0xC04, offset: 0x57D08, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer setDisablePopGesture:]', symObjAddr: 0x1450, symBinAddr: 0x991C, symSize: 0x14 }
+  - { offsetInCU: 0xC45, offset: 0x57D49, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer enableLeftPanBackGesture]', symObjAddr: 0x1464, symBinAddr: 0x9930, symSize: 0x10 }
+  - { offsetInCU: 0xC7C, offset: 0x57D80, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer setEnableLeftPanBackGesture:]', symObjAddr: 0x1474, symBinAddr: 0x9940, symSize: 0x14 }
+  - { offsetInCU: 0xCBD, offset: 0x57DC1, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer params]', symObjAddr: 0x1488, symBinAddr: 0x9954, symSize: 0x10 }
+  - { offsetInCU: 0xCF4, offset: 0x57DF8, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer setParams:]', symObjAddr: 0x1498, symBinAddr: 0x9964, symSize: 0x14 }
+  - { offsetInCU: 0xD35, offset: 0x57E39, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer uniqueId]', symObjAddr: 0x14AC, symBinAddr: 0x9978, symSize: 0x10 }
+  - { offsetInCU: 0xD6C, offset: 0x57E70, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer setUniqueId:]', symObjAddr: 0x14BC, symBinAddr: 0x9988, symSize: 0xC }
+  - { offsetInCU: 0xDAB, offset: 0x57EAF, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer flbNibName]', symObjAddr: 0x14C8, symBinAddr: 0x9994, symSize: 0x10 }
+  - { offsetInCU: 0xDE2, offset: 0x57EE6, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer setFlbNibName:]', symObjAddr: 0x14D8, symBinAddr: 0x99A4, symSize: 0xC }
+  - { offsetInCU: 0xE21, offset: 0x57F25, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer flbNibBundle]', symObjAddr: 0x14E4, symBinAddr: 0x99B0, symSize: 0x10 }
+  - { offsetInCU: 0xE58, offset: 0x57F5C, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer setFlbNibBundle:]', symObjAddr: 0x14F4, symBinAddr: 0x99C0, symSize: 0x14 }
+  - { offsetInCU: 0xE99, offset: 0x57F9D, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer opaque]', symObjAddr: 0x1508, symBinAddr: 0x99D4, symSize: 0x10 }
+  - { offsetInCU: 0xED0, offset: 0x57FD4, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer setOpaque:]', symObjAddr: 0x1518, symBinAddr: 0x99E4, symSize: 0x10 }
+  - { offsetInCU: 0xF0B, offset: 0x5800F, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer removeEventCallback]', symObjAddr: 0x1528, symBinAddr: 0x99F4, symSize: 0x10 }
+  - { offsetInCU: 0xF42, offset: 0x58046, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer setRemoveEventCallback:]', symObjAddr: 0x1538, symBinAddr: 0x9A04, symSize: 0xC }
+  - { offsetInCU: 0xF81, offset: 0x58085, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer leftEdgeGesture]', symObjAddr: 0x1544, symBinAddr: 0x9A10, symSize: 0x10 }
+  - { offsetInCU: 0xFB8, offset: 0x580BC, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer setLeftEdgeGesture:]', symObjAddr: 0x1554, symBinAddr: 0x9A20, symSize: 0x14 }
+  - { offsetInCU: 0xFF9, offset: 0x580FD, size: 0x8, addend: 0x0, symName: '-[FBFlutterViewContainer .cxx_destruct]', symObjAddr: 0x1568, symBinAddr: 0x9A34, symSize: 0xCC }
+  - { offsetInCU: 0x27, offset: 0x582DB, size: 0x8, addend: 0x0, symName: '+[FBLifecycle pause]', symObjAddr: 0x0, symBinAddr: 0x9B00, symSize: 0x170 }
+  - { offsetInCU: 0x7B, offset: 0x5832F, size: 0x8, addend: 0x0, symName: '+[FBLifecycle pause]', symObjAddr: 0x0, symBinAddr: 0x9B00, symSize: 0x170 }
+  - { offsetInCU: 0xAA, offset: 0x5835E, size: 0x8, addend: 0x0, symName: '+[FBLifecycle resume]', symObjAddr: 0x170, symBinAddr: 0x9C70, symSize: 0xE8 }
+  - { offsetInCU: 0x27, offset: 0x583DF, size: 0x8, addend: 0x0, symName: '-[FlutterBoost setup:delegate:callback:]', symObjAddr: 0x0, symBinAddr: 0x9D58, symSize: 0xA8 }
+  - { offsetInCU: 0x35, offset: 0x583ED, size: 0x8, addend: 0x0, symName: '+[FlutterBoost instance]', symObjAddr: 0x864, symBinAddr: 0xA5BC, symSize: 0x74 }
+  - { offsetInCU: 0x5F, offset: 0x58417, size: 0x8, addend: 0x0, symName: _instance._instance, symObjAddr: 0x7260, symBinAddr: 0x18BD8, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x5842D, size: 0x8, addend: 0x0, symName: _instance.onceToken, symObjAddr: 0x7268, symBinAddr: 0x18BE0, symSize: 0x0 }
+  - { offsetInCU: 0x1BA, offset: 0x58572, size: 0x8, addend: 0x0, symName: '-[FlutterBoost setup:delegate:callback:]', symObjAddr: 0x0, symBinAddr: 0x9D58, symSize: 0xA8 }
+  - { offsetInCU: 0x21D, offset: 0x585D5, size: 0x8, addend: 0x0, symName: '-[FlutterBoost setup:delegate:callback:options:]', symObjAddr: 0xA8, symBinAddr: 0x9E00, symSize: 0x324 }
+  - { offsetInCU: 0x379, offset: 0x58731, size: 0x8, addend: 0x0, symName: '___48-[FlutterBoost setup:delegate:callback:options:]_block_invoke', symObjAddr: 0x3CC, symBinAddr: 0xA124, symSize: 0x1B8 }
+  - { offsetInCU: 0x4D4, offset: 0x5888C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72s80b, symObjAddr: 0x584, symBinAddr: 0xA2DC, symSize: 0x5C }
+  - { offsetInCU: 0x4FD, offset: 0x588B5, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s80s, symObjAddr: 0x5E0, symBinAddr: 0xA338, symSize: 0x50 }
+  - { offsetInCU: 0x51C, offset: 0x588D4, size: 0x8, addend: 0x0, symName: '___48-[FlutterBoost setup:delegate:callback:options:]_block_invoke.9', symObjAddr: 0x630, symBinAddr: 0xA388, symSize: 0xC }
+  - { offsetInCU: 0x563, offset: 0x5891B, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x63C, symBinAddr: 0xA394, symSize: 0x10 }
+  - { offsetInCU: 0x58C, offset: 0x58944, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x64C, symBinAddr: 0xA3A4, symSize: 0x8 }
+  - { offsetInCU: 0x5AB, offset: 0x58963, size: 0x8, addend: 0x0, symName: '-[FlutterBoost unsetFlutterBoost]', symObjAddr: 0x654, symBinAddr: 0xA3AC, symSize: 0xCC }
+  - { offsetInCU: 0x618, offset: 0x589D0, size: 0x8, addend: 0x0, symName: '___33-[FlutterBoost unsetFlutterBoost]_block_invoke', symObjAddr: 0x720, symBinAddr: 0xA478, symSize: 0x9C }
+  - { offsetInCU: 0x657, offset: 0x58A0F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x7BC, symBinAddr: 0xA514, symSize: 0x8 }
+  - { offsetInCU: 0x67E, offset: 0x58A36, size: 0x8, addend: 0x0, symName: '___33-[FlutterBoost unsetFlutterBoost]_block_invoke.15', symObjAddr: 0x7C4, symBinAddr: 0xA51C, symSize: 0xC }
+  - { offsetInCU: 0x6C5, offset: 0x58A7D, size: 0x8, addend: 0x0, symName: '-[FlutterBoost warmUpEngine]', symObjAddr: 0x7D0, symBinAddr: 0xA528, symSize: 0x94 }
+  - { offsetInCU: 0x742, offset: 0x58AFA, size: 0x8, addend: 0x0, symName: '___24+[FlutterBoost instance]_block_invoke', symObjAddr: 0x8D8, symBinAddr: 0xA630, symSize: 0x2C }
+  - { offsetInCU: 0x781, offset: 0x58B39, size: 0x8, addend: 0x0, symName: '-[FlutterBoost currentViewController]', symObjAddr: 0x904, symBinAddr: 0xA65C, symSize: 0x44 }
+  - { offsetInCU: 0x7B8, offset: 0x58B70, size: 0x8, addend: 0x0, symName: '-[FlutterBoost open:arguments:completion:]', symObjAddr: 0x948, symBinAddr: 0xA6A0, symSize: 0xE8 }
+  - { offsetInCU: 0x82B, offset: 0x58BE3, size: 0x8, addend: 0x0, symName: '-[FlutterBoost open:]', symObjAddr: 0xA30, symBinAddr: 0xA788, symSize: 0x70 }
+  - { offsetInCU: 0x86E, offset: 0x58C26, size: 0x8, addend: 0x0, symName: '-[FlutterBoost close:]', symObjAddr: 0xAA0, symBinAddr: 0xA7F8, symSize: 0xA0 }
+  - { offsetInCU: 0x8C1, offset: 0x58C79, size: 0x8, addend: 0x0, symName: '___22-[FlutterBoost close:]_block_invoke', symObjAddr: 0xB40, symBinAddr: 0xA898, symSize: 0x4 }
+  - { offsetInCU: 0x8F4, offset: 0x58CAC, size: 0x8, addend: 0x0, symName: '-[FlutterBoost sendResultToFlutterWithPageName:arguments:]', symObjAddr: 0xB44, symBinAddr: 0xA89C, symSize: 0xC4 }
+  - { offsetInCU: 0x957, offset: 0x58D0F, size: 0x8, addend: 0x0, symName: '___58-[FlutterBoost sendResultToFlutterWithPageName:arguments:]_block_invoke', symObjAddr: 0xC08, symBinAddr: 0xA960, symSize: 0x4 }
+  - { offsetInCU: 0x98A, offset: 0x58D42, size: 0x8, addend: 0x0, symName: '-[FlutterBoost applicationDidEnterBackground:]', symObjAddr: 0xC0C, symBinAddr: 0xA964, symSize: 0x80 }
+  - { offsetInCU: 0x9D9, offset: 0x58D91, size: 0x8, addend: 0x0, symName: '___46-[FlutterBoost applicationDidEnterBackground:]_block_invoke', symObjAddr: 0xC8C, symBinAddr: 0xA9E4, symSize: 0x4 }
+  - { offsetInCU: 0xA0C, offset: 0x58DC4, size: 0x8, addend: 0x0, symName: '-[FlutterBoost applicationWillEnterForeground:]', symObjAddr: 0xC90, symBinAddr: 0xA9E8, symSize: 0x80 }
+  - { offsetInCU: 0xA5B, offset: 0x58E13, size: 0x8, addend: 0x0, symName: '___47-[FlutterBoost applicationWillEnterForeground:]_block_invoke', symObjAddr: 0xD10, symBinAddr: 0xAA68, symSize: 0x4 }
+  - { offsetInCU: 0xA8E, offset: 0x58E46, size: 0x8, addend: 0x0, symName: '-[FlutterBoost addEventListener:forName:]', symObjAddr: 0xD14, symBinAddr: 0xAA6C, symSize: 0x88 }
+  - { offsetInCU: 0xAE5, offset: 0x58E9D, size: 0x8, addend: 0x0, symName: '-[FlutterBoost sendEventToFlutterWith:arguments:]', symObjAddr: 0xD9C, symBinAddr: 0xAAF4, symSize: 0xC4 }
+  - { offsetInCU: 0xB48, offset: 0x58F00, size: 0x8, addend: 0x0, symName: '___49-[FlutterBoost sendEventToFlutterWith:arguments:]_block_invoke', symObjAddr: 0xE60, symBinAddr: 0xABB8, symSize: 0x4 }
+  - { offsetInCU: 0xB7B, offset: 0x58F33, size: 0x8, addend: 0x0, symName: '-[FlutterBoost dealloc]', symObjAddr: 0xE64, symBinAddr: 0xABBC, symSize: 0xB4 }
+  - { offsetInCU: 0xBAE, offset: 0x58F66, size: 0x8, addend: 0x0, symName: '-[FlutterBoost engine]', symObjAddr: 0xF18, symBinAddr: 0xAC70, symSize: 0x8 }
+  - { offsetInCU: 0xBE5, offset: 0x58F9D, size: 0x8, addend: 0x0, symName: '-[FlutterBoost setEngine:]', symObjAddr: 0xF20, symBinAddr: 0xAC78, symSize: 0xC }
+  - { offsetInCU: 0xC26, offset: 0x58FDE, size: 0x8, addend: 0x0, symName: '-[FlutterBoost plugin]', symObjAddr: 0xF2C, symBinAddr: 0xAC84, symSize: 0x8 }
+  - { offsetInCU: 0xC5D, offset: 0x59015, size: 0x8, addend: 0x0, symName: '-[FlutterBoost setPlugin:]', symObjAddr: 0xF34, symBinAddr: 0xAC8C, symSize: 0xC }
+  - { offsetInCU: 0xC9E, offset: 0x59056, size: 0x8, addend: 0x0, symName: '-[FlutterBoost .cxx_destruct]', symObjAddr: 0xF40, symBinAddr: 0xAC98, symSize: 0x30 }
+  - { offsetInCU: 0x27, offset: 0x59771, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin containerCreated:]', symObjAddr: 0x0, symBinAddr: 0xACC8, symSize: 0xC4 }
+  - { offsetInCU: 0x18B, offset: 0x598D5, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin containerCreated:]', symObjAddr: 0x0, symBinAddr: 0xACC8, symSize: 0xC4 }
+  - { offsetInCU: 0x1CE, offset: 0x59918, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin containerWillAppear:]', symObjAddr: 0xC4, symBinAddr: 0xAD8C, symSize: 0x17C }
+  - { offsetInCU: 0x221, offset: 0x5996B, size: 0x8, addend: 0x0, symName: '___42-[FlutterBoostPlugin containerWillAppear:]_block_invoke', symObjAddr: 0x240, symBinAddr: 0xAF08, symSize: 0x4 }
+  - { offsetInCU: 0x254, offset: 0x5999E, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin containerAppeared:]', symObjAddr: 0x244, symBinAddr: 0xAF0C, symSize: 0xA8 }
+  - { offsetInCU: 0x2A7, offset: 0x599F1, size: 0x8, addend: 0x0, symName: '___40-[FlutterBoostPlugin containerAppeared:]_block_invoke', symObjAddr: 0x2EC, symBinAddr: 0xAFB4, symSize: 0x4 }
+  - { offsetInCU: 0x2DA, offset: 0x59A24, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin containerDisappeared:]', symObjAddr: 0x2F0, symBinAddr: 0xAFB8, symSize: 0xA8 }
+  - { offsetInCU: 0x32D, offset: 0x59A77, size: 0x8, addend: 0x0, symName: '___43-[FlutterBoostPlugin containerDisappeared:]_block_invoke', symObjAddr: 0x398, symBinAddr: 0xB060, symSize: 0x4 }
+  - { offsetInCU: 0x360, offset: 0x59AAA, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin onBackSwipe]', symObjAddr: 0x39C, symBinAddr: 0xB064, symSize: 0x38 }
+  - { offsetInCU: 0x393, offset: 0x59ADD, size: 0x8, addend: 0x0, symName: '___33-[FlutterBoostPlugin onBackSwipe]_block_invoke', symObjAddr: 0x3D4, symBinAddr: 0xB09C, symSize: 0x4 }
+  - { offsetInCU: 0x3C6, offset: 0x59B10, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin containerDestroyed:]', symObjAddr: 0x3D8, symBinAddr: 0xB0A0, symSize: 0x178 }
+  - { offsetInCU: 0x419, offset: 0x59B63, size: 0x8, addend: 0x0, symName: '___41-[FlutterBoostPlugin containerDestroyed:]_block_invoke', symObjAddr: 0x550, symBinAddr: 0xB218, symSize: 0x4 }
+  - { offsetInCU: 0x44C, offset: 0x59B96, size: 0x8, addend: 0x0, symName: '+[FlutterBoostPlugin registerWithRegistrar:]', symObjAddr: 0x554, symBinAddr: 0xB21C, symSize: 0xAC }
+  - { offsetInCU: 0x4D0, offset: 0x59C1A, size: 0x8, addend: 0x0, symName: '+[FlutterBoostPlugin getPlugin:]', symObjAddr: 0x600, symBinAddr: 0xB2C8, symSize: 0x70 }
+  - { offsetInCU: 0x542, offset: 0x59C8C, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin initWithMessenger:]', symObjAddr: 0x670, symBinAddr: 0xB338, symSize: 0xC0 }
+  - { offsetInCU: 0x589, offset: 0x59CD3, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin pushNativeRouteParam:error:]', symObjAddr: 0x730, symBinAddr: 0xB3F8, symSize: 0x98 }
+  - { offsetInCU: 0x5D8, offset: 0x59D22, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin pushFlutterRouteParam:error:]', symObjAddr: 0x7C8, symBinAddr: 0xB490, symSize: 0x130 }
+  - { offsetInCU: 0x637, offset: 0x59D81, size: 0x8, addend: 0x0, symName: '___50-[FlutterBoostPlugin pushFlutterRouteParam:error:]_block_invoke', symObjAddr: 0x8F8, symBinAddr: 0xB5C0, symSize: 0x4 }
+  - { offsetInCU: 0x66A, offset: 0x59DB4, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin popRouteParam:completion:]', symObjAddr: 0x8FC, symBinAddr: 0xB5C4, symSize: 0x1B8 }
+  - { offsetInCU: 0x6F0, offset: 0x59E3A, size: 0x8, addend: 0x0, symName: '___47-[FlutterBoostPlugin popRouteParam:completion:]_block_invoke', symObjAddr: 0xAB4, symBinAddr: 0xB77C, symSize: 0x4 }
+  - { offsetInCU: 0x723, offset: 0x59E6D, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin getStackFromHostWithError:]', symObjAddr: 0xAB8, symBinAddr: 0xB780, symSize: 0x58 }
+  - { offsetInCU: 0x766, offset: 0x59EB0, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin saveStackToHostStack:error:]', symObjAddr: 0xB10, symBinAddr: 0xB7D8, symSize: 0x4 }
+  - { offsetInCU: 0x7B1, offset: 0x59EFB, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin sendEventToNativeParams:error:]', symObjAddr: 0xB14, symBinAddr: 0xB7DC, symSize: 0x1B4 }
+  - { offsetInCU: 0x878, offset: 0x59FC2, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin sendEventToNativeParams:error:].cold.1', symObjAddr: 0xF7C, symBinAddr: 0xEFB8, symSize: 0x28 }
+  - { offsetInCU: 0x890, offset: 0x59FDA, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin addEventListener:forName:]', symObjAddr: 0xCC8, symBinAddr: 0xB990, symSize: 0x16C }
+  - { offsetInCU: 0x8FA, offset: 0x5A044, size: 0x8, addend: 0x0, symName: '___47-[FlutterBoostPlugin addEventListener:forName:]_block_invoke', symObjAddr: 0xE34, symBinAddr: 0xBAFC, symSize: 0x34 }
+  - { offsetInCU: 0x905, offset: 0x5A04F, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin addEventListener:forName:].cold.1', symObjAddr: 0xFA4, symBinAddr: 0xEFE0, symSize: 0x28 }
+  - { offsetInCU: 0x91D, offset: 0x5A067, size: 0x8, addend: 0x0, symName: '___47-[FlutterBoostPlugin addEventListener:forName:]_block_invoke', symObjAddr: 0xE34, symBinAddr: 0xBAFC, symSize: 0x34 }
+  - { offsetInCU: 0x968, offset: 0x5A0B2, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin delegate]', symObjAddr: 0xEC4, symBinAddr: 0xBB30, symSize: 0x8 }
+  - { offsetInCU: 0x99F, offset: 0x5A0E9, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin setDelegate:]', symObjAddr: 0xECC, symBinAddr: 0xBB38, symSize: 0xC }
+  - { offsetInCU: 0x9E0, offset: 0x5A12A, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin flutterApi]', symObjAddr: 0xED8, symBinAddr: 0xBB44, symSize: 0x8 }
+  - { offsetInCU: 0xA17, offset: 0x5A161, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin setFlutterApi:]', symObjAddr: 0xEE0, symBinAddr: 0xBB4C, symSize: 0xC }
+  - { offsetInCU: 0xA58, offset: 0x5A1A2, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin containerManager]', symObjAddr: 0xEEC, symBinAddr: 0xBB58, symSize: 0x8 }
+  - { offsetInCU: 0xA8F, offset: 0x5A1D9, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin setContainerManager:]', symObjAddr: 0xEF4, symBinAddr: 0xBB60, symSize: 0xC }
+  - { offsetInCU: 0xAD0, offset: 0x5A21A, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin stackInfo]', symObjAddr: 0xF00, symBinAddr: 0xBB6C, symSize: 0x8 }
+  - { offsetInCU: 0xB07, offset: 0x5A251, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin setStackInfo:]', symObjAddr: 0xF08, symBinAddr: 0xBB74, symSize: 0xC }
+  - { offsetInCU: 0xB48, offset: 0x5A292, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin listenersTable]', symObjAddr: 0xF14, symBinAddr: 0xBB80, symSize: 0x8 }
+  - { offsetInCU: 0xB7F, offset: 0x5A2C9, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin setListenersTable:]', symObjAddr: 0xF1C, symBinAddr: 0xBB88, symSize: 0xC }
+  - { offsetInCU: 0xBC0, offset: 0x5A30A, size: 0x8, addend: 0x0, symName: '-[FlutterBoostPlugin .cxx_destruct]', symObjAddr: 0xF28, symBinAddr: 0xBB94, symSize: 0x54 }
+  - { offsetInCU: 0x27, offset: 0x5A941, size: 0x8, addend: 0x0, symName: '+[FBCommonParams makeWithOpaque:key:pageName:uniqueId:arguments:]', symObjAddr: 0x0, symBinAddr: 0xBBE8, symSize: 0xF0 }
+  - { offsetInCU: 0x35, offset: 0x5A94F, size: 0x8, addend: 0x0, symName: _FBNativeRouterApiGetCodec, symObjAddr: 0x11BC, symBinAddr: 0xCDA4, symSize: 0x40 }
+  - { offsetInCU: 0x5B, offset: 0x5A975, size: 0x8, addend: 0x0, symName: _FBNativeRouterApiGetCodec.sPred, symObjAddr: 0x10A00, symBinAddr: 0x18BE8, symSize: 0x0 }
+  - { offsetInCU: 0x71, offset: 0x5A98B, size: 0x8, addend: 0x0, symName: _FBNativeRouterApiGetCodec.sSharedObject, symObjAddr: 0x10A08, symBinAddr: 0x18BF0, symSize: 0x0 }
+  - { offsetInCU: 0xA3, offset: 0x5A9BD, size: 0x8, addend: 0x0, symName: _FBFlutterRouterApiGetCodec, symObjAddr: 0x2008, symBinAddr: 0xDBD0, symSize: 0x40 }
+  - { offsetInCU: 0xCB, offset: 0x5A9E5, size: 0x8, addend: 0x0, symName: _FBFlutterRouterApiGetCodec.sPred, symObjAddr: 0x10A10, symBinAddr: 0x18BF8, symSize: 0x0 }
+  - { offsetInCU: 0xE2, offset: 0x5A9FC, size: 0x8, addend: 0x0, symName: _FBFlutterRouterApiGetCodec.sSharedObject, symObjAddr: 0x10A18, symBinAddr: 0x18C00, symSize: 0x0 }
+  - { offsetInCU: 0x34B, offset: 0x5AC65, size: 0x8, addend: 0x0, symName: '+[FBCommonParams makeWithOpaque:key:pageName:uniqueId:arguments:]', symObjAddr: 0x0, symBinAddr: 0xBBE8, symSize: 0xF0 }
+  - { offsetInCU: 0x3DE, offset: 0x5ACF8, size: 0x8, addend: 0x0, symName: '+[FBCommonParams fromMap:]', symObjAddr: 0xF0, symBinAddr: 0xBCD8, symSize: 0x140 }
+  - { offsetInCU: 0x49F, offset: 0x5ADB9, size: 0x8, addend: 0x0, symName: _GetNullableObject, symObjAddr: 0x230, symBinAddr: 0xBE18, symSize: 0x70 }
+  - { offsetInCU: 0x4EA, offset: 0x5AE04, size: 0x8, addend: 0x0, symName: '+[FBCommonParams nullableFromMap:]', symObjAddr: 0x2A0, symBinAddr: 0xBE88, symSize: 0x30 }
+  - { offsetInCU: 0x52D, offset: 0x5AE47, size: 0x8, addend: 0x0, symName: '-[FBCommonParams toMap]', symObjAddr: 0x2D0, symBinAddr: 0xBEB8, symSize: 0x248 }
+  - { offsetInCU: 0x564, offset: 0x5AE7E, size: 0x8, addend: 0x0, symName: '-[FBCommonParams opaque]', symObjAddr: 0x518, symBinAddr: 0xC100, symSize: 0x8 }
+  - { offsetInCU: 0x59B, offset: 0x5AEB5, size: 0x8, addend: 0x0, symName: '-[FBCommonParams setOpaque:]', symObjAddr: 0x520, symBinAddr: 0xC108, symSize: 0xC }
+  - { offsetInCU: 0x5DC, offset: 0x5AEF6, size: 0x8, addend: 0x0, symName: '-[FBCommonParams key]', symObjAddr: 0x52C, symBinAddr: 0xC114, symSize: 0x8 }
+  - { offsetInCU: 0x613, offset: 0x5AF2D, size: 0x8, addend: 0x0, symName: '-[FBCommonParams setKey:]', symObjAddr: 0x534, symBinAddr: 0xC11C, symSize: 0x8 }
+  - { offsetInCU: 0x652, offset: 0x5AF6C, size: 0x8, addend: 0x0, symName: '-[FBCommonParams pageName]', symObjAddr: 0x53C, symBinAddr: 0xC124, symSize: 0x8 }
+  - { offsetInCU: 0x689, offset: 0x5AFA3, size: 0x8, addend: 0x0, symName: '-[FBCommonParams setPageName:]', symObjAddr: 0x544, symBinAddr: 0xC12C, symSize: 0x8 }
+  - { offsetInCU: 0x6C8, offset: 0x5AFE2, size: 0x8, addend: 0x0, symName: '-[FBCommonParams uniqueId]', symObjAddr: 0x54C, symBinAddr: 0xC134, symSize: 0x8 }
+  - { offsetInCU: 0x6FF, offset: 0x5B019, size: 0x8, addend: 0x0, symName: '-[FBCommonParams setUniqueId:]', symObjAddr: 0x554, symBinAddr: 0xC13C, symSize: 0x8 }
+  - { offsetInCU: 0x73E, offset: 0x5B058, size: 0x8, addend: 0x0, symName: '-[FBCommonParams arguments]', symObjAddr: 0x55C, symBinAddr: 0xC144, symSize: 0x8 }
+  - { offsetInCU: 0x775, offset: 0x5B08F, size: 0x8, addend: 0x0, symName: '-[FBCommonParams setArguments:]', symObjAddr: 0x564, symBinAddr: 0xC14C, symSize: 0xC }
+  - { offsetInCU: 0x7B6, offset: 0x5B0D0, size: 0x8, addend: 0x0, symName: '-[FBCommonParams .cxx_destruct]', symObjAddr: 0x570, symBinAddr: 0xC158, symSize: 0x54 }
+  - { offsetInCU: 0x7E9, offset: 0x5B103, size: 0x8, addend: 0x0, symName: '+[FBStackInfo makeWithIds:containers:]', symObjAddr: 0x5C4, symBinAddr: 0xC1AC, symSize: 0x7C }
+  - { offsetInCU: 0x84C, offset: 0x5B166, size: 0x8, addend: 0x0, symName: '+[FBStackInfo fromMap:]', symObjAddr: 0x640, symBinAddr: 0xC228, symSize: 0xB0 }
+  - { offsetInCU: 0x8CB, offset: 0x5B1E5, size: 0x8, addend: 0x0, symName: '+[FBStackInfo nullableFromMap:]', symObjAddr: 0x6F0, symBinAddr: 0xC2D8, symSize: 0x30 }
+  - { offsetInCU: 0x90E, offset: 0x5B228, size: 0x8, addend: 0x0, symName: '-[FBStackInfo toMap]', symObjAddr: 0x720, symBinAddr: 0xC308, symSize: 0x130 }
+  - { offsetInCU: 0x945, offset: 0x5B25F, size: 0x8, addend: 0x0, symName: '-[FBStackInfo ids]', symObjAddr: 0x850, symBinAddr: 0xC438, symSize: 0x8 }
+  - { offsetInCU: 0x97C, offset: 0x5B296, size: 0x8, addend: 0x0, symName: '-[FBStackInfo setIds:]', symObjAddr: 0x858, symBinAddr: 0xC440, symSize: 0xC }
+  - { offsetInCU: 0x9BD, offset: 0x5B2D7, size: 0x8, addend: 0x0, symName: '-[FBStackInfo containers]', symObjAddr: 0x864, symBinAddr: 0xC44C, symSize: 0x8 }
+  - { offsetInCU: 0x9F4, offset: 0x5B30E, size: 0x8, addend: 0x0, symName: '-[FBStackInfo setContainers:]', symObjAddr: 0x86C, symBinAddr: 0xC454, symSize: 0xC }
+  - { offsetInCU: 0xA35, offset: 0x5B34F, size: 0x8, addend: 0x0, symName: '-[FBStackInfo .cxx_destruct]', symObjAddr: 0x878, symBinAddr: 0xC460, symSize: 0x30 }
+  - { offsetInCU: 0xA68, offset: 0x5B382, size: 0x8, addend: 0x0, symName: '+[FBFlutterContainer makeWithPages:]', symObjAddr: 0x8A8, symBinAddr: 0xC490, symSize: 0x50 }
+  - { offsetInCU: 0xABB, offset: 0x5B3D5, size: 0x8, addend: 0x0, symName: '+[FBFlutterContainer fromMap:]', symObjAddr: 0x8F8, symBinAddr: 0xC4E0, symSize: 0x80 }
+  - { offsetInCU: 0xB24, offset: 0x5B43E, size: 0x8, addend: 0x0, symName: '+[FBFlutterContainer nullableFromMap:]', symObjAddr: 0x978, symBinAddr: 0xC560, symSize: 0x30 }
+  - { offsetInCU: 0xB67, offset: 0x5B481, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainer toMap]', symObjAddr: 0x9A8, symBinAddr: 0xC590, symSize: 0xD0 }
+  - { offsetInCU: 0xB9E, offset: 0x5B4B8, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainer pages]', symObjAddr: 0xA78, symBinAddr: 0xC660, symSize: 0x8 }
+  - { offsetInCU: 0xBD5, offset: 0x5B4EF, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainer setPages:]', symObjAddr: 0xA80, symBinAddr: 0xC668, symSize: 0xC }
+  - { offsetInCU: 0xC16, offset: 0x5B530, size: 0x8, addend: 0x0, symName: '-[FBFlutterContainer .cxx_destruct]', symObjAddr: 0xA8C, symBinAddr: 0xC674, symSize: 0xC }
+  - { offsetInCU: 0xC49, offset: 0x5B563, size: 0x8, addend: 0x0, symName: '+[FBFlutterPage makeWithWithContainer:pageName:uniqueId:arguments:]', symObjAddr: 0xA98, symBinAddr: 0xC680, symSize: 0xCC }
+  - { offsetInCU: 0xCCC, offset: 0x5B5E6, size: 0x8, addend: 0x0, symName: '+[FBFlutterPage fromMap:]', symObjAddr: 0xB64, symBinAddr: 0xC74C, symSize: 0x110 }
+  - { offsetInCU: 0xD77, offset: 0x5B691, size: 0x8, addend: 0x0, symName: '+[FBFlutterPage nullableFromMap:]', symObjAddr: 0xC74, symBinAddr: 0xC85C, symSize: 0x30 }
+  - { offsetInCU: 0xDBA, offset: 0x5B6D4, size: 0x8, addend: 0x0, symName: '-[FBFlutterPage toMap]', symObjAddr: 0xCA4, symBinAddr: 0xC88C, symSize: 0x1F4 }
+  - { offsetInCU: 0xDF1, offset: 0x5B70B, size: 0x8, addend: 0x0, symName: '-[FBFlutterPage withContainer]', symObjAddr: 0xE98, symBinAddr: 0xCA80, symSize: 0x8 }
+  - { offsetInCU: 0xE28, offset: 0x5B742, size: 0x8, addend: 0x0, symName: '-[FBFlutterPage setWithContainer:]', symObjAddr: 0xEA0, symBinAddr: 0xCA88, symSize: 0xC }
+  - { offsetInCU: 0xE69, offset: 0x5B783, size: 0x8, addend: 0x0, symName: '-[FBFlutterPage pageName]', symObjAddr: 0xEAC, symBinAddr: 0xCA94, symSize: 0x8 }
+  - { offsetInCU: 0xEA0, offset: 0x5B7BA, size: 0x8, addend: 0x0, symName: '-[FBFlutterPage setPageName:]', symObjAddr: 0xEB4, symBinAddr: 0xCA9C, symSize: 0x8 }
+  - { offsetInCU: 0xEDF, offset: 0x5B7F9, size: 0x8, addend: 0x0, symName: '-[FBFlutterPage uniqueId]', symObjAddr: 0xEBC, symBinAddr: 0xCAA4, symSize: 0x8 }
+  - { offsetInCU: 0xF16, offset: 0x5B830, size: 0x8, addend: 0x0, symName: '-[FBFlutterPage setUniqueId:]', symObjAddr: 0xEC4, symBinAddr: 0xCAAC, symSize: 0x8 }
+  - { offsetInCU: 0xF55, offset: 0x5B86F, size: 0x8, addend: 0x0, symName: '-[FBFlutterPage arguments]', symObjAddr: 0xECC, symBinAddr: 0xCAB4, symSize: 0x8 }
+  - { offsetInCU: 0xF8C, offset: 0x5B8A6, size: 0x8, addend: 0x0, symName: '-[FBFlutterPage setArguments:]', symObjAddr: 0xED4, symBinAddr: 0xCABC, symSize: 0xC }
+  - { offsetInCU: 0xFCD, offset: 0x5B8E7, size: 0x8, addend: 0x0, symName: '-[FBFlutterPage .cxx_destruct]', symObjAddr: 0xEE0, symBinAddr: 0xCAC8, symSize: 0x48 }
+  - { offsetInCU: 0x1000, offset: 0x5B91A, size: 0x8, addend: 0x0, symName: '-[FBNativeRouterApiCodecReader readValueOfType:]', symObjAddr: 0xF28, symBinAddr: 0xCB10, symSize: 0xD0 }
+  - { offsetInCU: 0x1047, offset: 0x5B961, size: 0x8, addend: 0x0, symName: '-[FBNativeRouterApiCodecWriter writeValue:]', symObjAddr: 0xFF8, symBinAddr: 0xCBE0, symSize: 0x12C }
+  - { offsetInCU: 0x108A, offset: 0x5B9A4, size: 0x8, addend: 0x0, symName: '-[FBNativeRouterApiCodecReaderWriter writerWithData:]', symObjAddr: 0x1124, symBinAddr: 0xCD0C, symSize: 0x4C }
+  - { offsetInCU: 0x10CD, offset: 0x5B9E7, size: 0x8, addend: 0x0, symName: '-[FBNativeRouterApiCodecReaderWriter readerWithData:]', symObjAddr: 0x1170, symBinAddr: 0xCD58, symSize: 0x4C }
+  - { offsetInCU: 0x115F, offset: 0x5BA79, size: 0x8, addend: 0x0, symName: ___FBNativeRouterApiGetCodec_block_invoke, symObjAddr: 0x11FC, symBinAddr: 0xCDE4, symSize: 0x5C }
+  - { offsetInCU: 0x11A5, offset: 0x5BABF, size: 0x8, addend: 0x0, symName: _FBNativeRouterApiSetup, symObjAddr: 0x1258, symBinAddr: 0xCE40, symSize: 0x3F8 }
+  - { offsetInCU: 0x12EF, offset: 0x5BC09, size: 0x8, addend: 0x0, symName: ___FBNativeRouterApiSetup_block_invoke, symObjAddr: 0x1650, symBinAddr: 0xD238, symSize: 0xD4 }
+  - { offsetInCU: 0x13D2, offset: 0x5BCEC, size: 0x8, addend: 0x0, symName: _GetNullableObjectAtIndex, symObjAddr: 0x1724, symBinAddr: 0xD30C, symSize: 0x70 }
+  - { offsetInCU: 0x141B, offset: 0x5BD35, size: 0x8, addend: 0x0, symName: _wrapResult, symObjAddr: 0x1794, symBinAddr: 0xD37C, symSize: 0x258 }
+  - { offsetInCU: 0x1466, offset: 0x5BD80, size: 0x8, addend: 0x0, symName: ___FBNativeRouterApiSetup_block_invoke.111, symObjAddr: 0x19FC, symBinAddr: 0xD5D4, symSize: 0xD4 }
+  - { offsetInCU: 0x1550, offset: 0x5BE6A, size: 0x8, addend: 0x0, symName: ___FBNativeRouterApiSetup_block_invoke_2, symObjAddr: 0x1AD0, symBinAddr: 0xD6A8, symSize: 0xB8 }
+  - { offsetInCU: 0x15F6, offset: 0x5BF10, size: 0x8, addend: 0x0, symName: ___FBNativeRouterApiSetup_block_invoke_3, symObjAddr: 0x1B88, symBinAddr: 0xD760, symSize: 0x44 }
+  - { offsetInCU: 0x167D, offset: 0x5BF97, size: 0x8, addend: 0x0, symName: ___FBNativeRouterApiSetup_block_invoke.117, symObjAddr: 0x1BDC, symBinAddr: 0xD7A4, symSize: 0xA8 }
+  - { offsetInCU: 0x1741, offset: 0x5C05B, size: 0x8, addend: 0x0, symName: ___FBNativeRouterApiSetup_block_invoke_2.120, symObjAddr: 0x1C84, symBinAddr: 0xD84C, symSize: 0xD4 }
+  - { offsetInCU: 0x182B, offset: 0x5C145, size: 0x8, addend: 0x0, symName: ___FBNativeRouterApiSetup_block_invoke_3.123, symObjAddr: 0x1D58, symBinAddr: 0xD920, symSize: 0xD4 }
+  - { offsetInCU: 0x1915, offset: 0x5C22F, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApiCodecReader readValueOfType:]', symObjAddr: 0x1E2C, symBinAddr: 0xD9F4, symSize: 0x90 }
+  - { offsetInCU: 0x195E, offset: 0x5C278, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApiCodecWriter writeValue:]', symObjAddr: 0x1EBC, symBinAddr: 0xDA84, symSize: 0xB4 }
+  - { offsetInCU: 0x19A3, offset: 0x5C2BD, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApiCodecReaderWriter writerWithData:]', symObjAddr: 0x1F70, symBinAddr: 0xDB38, symSize: 0x4C }
+  - { offsetInCU: 0x19E8, offset: 0x5C302, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApiCodecReaderWriter readerWithData:]', symObjAddr: 0x1FBC, symBinAddr: 0xDB84, symSize: 0x4C }
+  - { offsetInCU: 0x1A2D, offset: 0x5C347, size: 0x8, addend: 0x0, symName: ___FBFlutterRouterApiGetCodec_block_invoke, symObjAddr: 0x2048, symBinAddr: 0xDC10, symSize: 0x5C }
+  - { offsetInCU: 0x1A76, offset: 0x5C390, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApi initWithBinaryMessenger:]', symObjAddr: 0x20A4, symBinAddr: 0xDC6C, symSize: 0x78 }
+  - { offsetInCU: 0x1ABF, offset: 0x5C3D9, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApi pushRouteParam:completion:]', symObjAddr: 0x211C, symBinAddr: 0xDCE4, symSize: 0x1A0 }
+  - { offsetInCU: 0x1B34, offset: 0x5C44E, size: 0x8, addend: 0x0, symName: '___48-[FBFlutterRouterApi pushRouteParam:completion:]_block_invoke', symObjAddr: 0x22BC, symBinAddr: 0xDE84, symSize: 0x10 }
+  - { offsetInCU: 0x1B92, offset: 0x5C4AC, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApi popRouteParam:completion:]', symObjAddr: 0x22CC, symBinAddr: 0xDE94, symSize: 0x1A0 }
+  - { offsetInCU: 0x1C07, offset: 0x5C521, size: 0x8, addend: 0x0, symName: '___47-[FBFlutterRouterApi popRouteParam:completion:]_block_invoke', symObjAddr: 0x246C, symBinAddr: 0xE034, symSize: 0x10 }
+  - { offsetInCU: 0x1C65, offset: 0x5C57F, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApi removeRouteParam:completion:]', symObjAddr: 0x247C, symBinAddr: 0xE044, symSize: 0x1A0 }
+  - { offsetInCU: 0x1CDA, offset: 0x5C5F4, size: 0x8, addend: 0x0, symName: '___50-[FBFlutterRouterApi removeRouteParam:completion:]_block_invoke', symObjAddr: 0x261C, symBinAddr: 0xE1E4, symSize: 0x10 }
+  - { offsetInCU: 0x1D38, offset: 0x5C652, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApi onForegroundParam:completion:]', symObjAddr: 0x262C, symBinAddr: 0xE1F4, symSize: 0x1A0 }
+  - { offsetInCU: 0x1DAD, offset: 0x5C6C7, size: 0x8, addend: 0x0, symName: '___51-[FBFlutterRouterApi onForegroundParam:completion:]_block_invoke', symObjAddr: 0x27CC, symBinAddr: 0xE394, symSize: 0x10 }
+  - { offsetInCU: 0x1E0B, offset: 0x5C725, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApi onBackgroundParam:completion:]', symObjAddr: 0x27DC, symBinAddr: 0xE3A4, symSize: 0x1A0 }
+  - { offsetInCU: 0x1E80, offset: 0x5C79A, size: 0x8, addend: 0x0, symName: '___51-[FBFlutterRouterApi onBackgroundParam:completion:]_block_invoke', symObjAddr: 0x297C, symBinAddr: 0xE544, symSize: 0x10 }
+  - { offsetInCU: 0x1EDE, offset: 0x5C7F8, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApi onNativeResultParam:completion:]', symObjAddr: 0x298C, symBinAddr: 0xE554, symSize: 0x1A0 }
+  - { offsetInCU: 0x1F53, offset: 0x5C86D, size: 0x8, addend: 0x0, symName: '___53-[FBFlutterRouterApi onNativeResultParam:completion:]_block_invoke', symObjAddr: 0x2B2C, symBinAddr: 0xE6F4, symSize: 0x10 }
+  - { offsetInCU: 0x1FB1, offset: 0x5C8CB, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApi onContainerShowParam:completion:]', symObjAddr: 0x2B3C, symBinAddr: 0xE704, symSize: 0x1A0 }
+  - { offsetInCU: 0x2026, offset: 0x5C940, size: 0x8, addend: 0x0, symName: '___54-[FBFlutterRouterApi onContainerShowParam:completion:]_block_invoke', symObjAddr: 0x2CDC, symBinAddr: 0xE8A4, symSize: 0x10 }
+  - { offsetInCU: 0x2084, offset: 0x5C99E, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApi onContainerHideParam:completion:]', symObjAddr: 0x2CEC, symBinAddr: 0xE8B4, symSize: 0x1A0 }
+  - { offsetInCU: 0x20F9, offset: 0x5CA13, size: 0x8, addend: 0x0, symName: '___54-[FBFlutterRouterApi onContainerHideParam:completion:]_block_invoke', symObjAddr: 0x2E8C, symBinAddr: 0xEA54, symSize: 0x10 }
+  - { offsetInCU: 0x2157, offset: 0x5CA71, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApi sendEventToFlutterParam:completion:]', symObjAddr: 0x2E9C, symBinAddr: 0xEA64, symSize: 0x1A0 }
+  - { offsetInCU: 0x21CC, offset: 0x5CAE6, size: 0x8, addend: 0x0, symName: '___57-[FBFlutterRouterApi sendEventToFlutterParam:completion:]_block_invoke', symObjAddr: 0x303C, symBinAddr: 0xEC04, symSize: 0x10 }
+  - { offsetInCU: 0x222A, offset: 0x5CB44, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApi onBackPressedWithCompletion:]', symObjAddr: 0x304C, symBinAddr: 0xEC14, symSize: 0xFC }
+  - { offsetInCU: 0x228E, offset: 0x5CBA8, size: 0x8, addend: 0x0, symName: '___50-[FBFlutterRouterApi onBackPressedWithCompletion:]_block_invoke', symObjAddr: 0x3148, symBinAddr: 0xED10, symSize: 0x10 }
+  - { offsetInCU: 0x22EC, offset: 0x5CC06, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApi binaryMessenger]', symObjAddr: 0x3158, symBinAddr: 0xED20, symSize: 0x8 }
+  - { offsetInCU: 0x2324, offset: 0x5CC3E, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApi setBinaryMessenger:]', symObjAddr: 0x3160, symBinAddr: 0xED28, symSize: 0xC }
+  - { offsetInCU: 0x2366, offset: 0x5CC80, size: 0x8, addend: 0x0, symName: '-[FBFlutterRouterApi .cxx_destruct]', symObjAddr: 0x316C, symBinAddr: 0xED34, symSize: 0xC }
+  - { offsetInCU: 0x27, offset: 0x5D650, size: 0x8, addend: 0x0, symName: '-[FlutterBoostSetupOptions init]', symObjAddr: 0x0, symBinAddr: 0xED40, symSize: 0x74 }
+  - { offsetInCU: 0x25F, offset: 0x5D888, size: 0x8, addend: 0x0, symName: '-[FlutterBoostSetupOptions init]', symObjAddr: 0x0, symBinAddr: 0xED40, symSize: 0x74 }
+  - { offsetInCU: 0x296, offset: 0x5D8BF, size: 0x8, addend: 0x0, symName: '+[FlutterBoostSetupOptions createDefault]', symObjAddr: 0x74, symBinAddr: 0xEDB4, symSize: 0x20 }
+  - { offsetInCU: 0x2C9, offset: 0x5D8F2, size: 0x8, addend: 0x0, symName: '-[FlutterBoostSetupOptions initalRoute]', symObjAddr: 0x94, symBinAddr: 0xEDD4, symSize: 0x8 }
+  - { offsetInCU: 0x300, offset: 0x5D929, size: 0x8, addend: 0x0, symName: '-[FlutterBoostSetupOptions setInitalRoute:]', symObjAddr: 0x9C, symBinAddr: 0xEDDC, symSize: 0xC }
+  - { offsetInCU: 0x341, offset: 0x5D96A, size: 0x8, addend: 0x0, symName: '-[FlutterBoostSetupOptions dartEntryPoint]', symObjAddr: 0xA8, symBinAddr: 0xEDE8, symSize: 0x8 }
+  - { offsetInCU: 0x378, offset: 0x5D9A1, size: 0x8, addend: 0x0, symName: '-[FlutterBoostSetupOptions setDartEntryPoint:]', symObjAddr: 0xB0, symBinAddr: 0xEDF0, symSize: 0xC }
+  - { offsetInCU: 0x3B9, offset: 0x5D9E2, size: 0x8, addend: 0x0, symName: '-[FlutterBoostSetupOptions dartEntryPointArgs]', symObjAddr: 0xBC, symBinAddr: 0xEDFC, symSize: 0x8 }
+  - { offsetInCU: 0x3F0, offset: 0x5DA19, size: 0x8, addend: 0x0, symName: '-[FlutterBoostSetupOptions setDartEntryPointArgs:]', symObjAddr: 0xC4, symBinAddr: 0xEE04, symSize: 0xC }
+  - { offsetInCU: 0x431, offset: 0x5DA5A, size: 0x8, addend: 0x0, symName: '-[FlutterBoostSetupOptions dartObject]', symObjAddr: 0xD0, symBinAddr: 0xEE10, symSize: 0x8 }
+  - { offsetInCU: 0x468, offset: 0x5DA91, size: 0x8, addend: 0x0, symName: '-[FlutterBoostSetupOptions setDartObject:]', symObjAddr: 0xD8, symBinAddr: 0xEE18, symSize: 0xC }
+  - { offsetInCU: 0x4A9, offset: 0x5DAD2, size: 0x8, addend: 0x0, symName: '-[FlutterBoostSetupOptions warmUpEngine]', symObjAddr: 0xE4, symBinAddr: 0xEE24, symSize: 0x8 }
+  - { offsetInCU: 0x4E0, offset: 0x5DB09, size: 0x8, addend: 0x0, symName: '-[FlutterBoostSetupOptions setWarmUpEngine:]', symObjAddr: 0xEC, symBinAddr: 0xEE2C, symSize: 0x8 }
+  - { offsetInCU: 0x51B, offset: 0x5DB44, size: 0x8, addend: 0x0, symName: '-[FlutterBoostSetupOptions .cxx_destruct]', symObjAddr: 0xF4, symBinAddr: 0xEE34, symSize: 0x48 }
+  - { offsetInCU: 0x54E, offset: 0x5DB77, size: 0x8, addend: 0x0, symName: '-[FlutterBoostRouteOptions init]', symObjAddr: 0x13C, symBinAddr: 0xEE7C, symSize: 0x54 }
+  - { offsetInCU: 0x585, offset: 0x5DBAE, size: 0x8, addend: 0x0, symName: '-[FlutterBoostRouteOptions pageName]', symObjAddr: 0x190, symBinAddr: 0xEED0, symSize: 0x8 }
+  - { offsetInCU: 0x5BC, offset: 0x5DBE5, size: 0x8, addend: 0x0, symName: '-[FlutterBoostRouteOptions setPageName:]', symObjAddr: 0x198, symBinAddr: 0xEED8, symSize: 0xC }
+  - { offsetInCU: 0x5FD, offset: 0x5DC26, size: 0x8, addend: 0x0, symName: '-[FlutterBoostRouteOptions arguments]', symObjAddr: 0x1A4, symBinAddr: 0xEEE4, symSize: 0x8 }
+  - { offsetInCU: 0x634, offset: 0x5DC5D, size: 0x8, addend: 0x0, symName: '-[FlutterBoostRouteOptions setArguments:]', symObjAddr: 0x1AC, symBinAddr: 0xEEEC, symSize: 0xC }
+  - { offsetInCU: 0x675, offset: 0x5DC9E, size: 0x8, addend: 0x0, symName: '-[FlutterBoostRouteOptions onPageFinished]', symObjAddr: 0x1B8, symBinAddr: 0xEEF8, symSize: 0x8 }
+  - { offsetInCU: 0x6AC, offset: 0x5DCD5, size: 0x8, addend: 0x0, symName: '-[FlutterBoostRouteOptions setOnPageFinished:]', symObjAddr: 0x1C0, symBinAddr: 0xEF00, symSize: 0x8 }
+  - { offsetInCU: 0x6EB, offset: 0x5DD14, size: 0x8, addend: 0x0, symName: '-[FlutterBoostRouteOptions completion]', symObjAddr: 0x1C8, symBinAddr: 0xEF08, symSize: 0x8 }
+  - { offsetInCU: 0x722, offset: 0x5DD4B, size: 0x8, addend: 0x0, symName: '-[FlutterBoostRouteOptions setCompletion:]', symObjAddr: 0x1D0, symBinAddr: 0xEF10, symSize: 0x8 }
+  - { offsetInCU: 0x761, offset: 0x5DD8A, size: 0x8, addend: 0x0, symName: '-[FlutterBoostRouteOptions uniqueId]', symObjAddr: 0x1D8, symBinAddr: 0xEF18, symSize: 0x8 }
+  - { offsetInCU: 0x798, offset: 0x5DDC1, size: 0x8, addend: 0x0, symName: '-[FlutterBoostRouteOptions setUniqueId:]', symObjAddr: 0x1E0, symBinAddr: 0xEF20, symSize: 0xC }
+  - { offsetInCU: 0x7D9, offset: 0x5DE02, size: 0x8, addend: 0x0, symName: '-[FlutterBoostRouteOptions opaque]', symObjAddr: 0x1EC, symBinAddr: 0xEF2C, symSize: 0x8 }
+  - { offsetInCU: 0x810, offset: 0x5DE39, size: 0x8, addend: 0x0, symName: '-[FlutterBoostRouteOptions setOpaque:]', symObjAddr: 0x1F4, symBinAddr: 0xEF34, symSize: 0x8 }
+  - { offsetInCU: 0x84B, offset: 0x5DE74, size: 0x8, addend: 0x0, symName: '-[FlutterBoostRouteOptions .cxx_destruct]', symObjAddr: 0x1FC, symBinAddr: 0xEF3C, symSize: 0x54 }
+...

@@ -59,12 +59,6 @@ variant_for_slice()
   "share_plus.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
-  "SVProgressHUD.xcframework/ios-arm64")
-    echo ""
-    ;;
-  "SVProgressHUD.xcframework/ios-arm64_x86_64-simulator")
-    echo "simulator"
-    ;;
   "url_launcher_ios.xcframework/ios-arm64")
     echo ""
     ;;
@@ -123,12 +117,6 @@ archs_for_slice()
     echo "arm64"
     ;;
   "share_plus.xcframework/ios-arm64_x86_64-simulator")
-    echo "arm64 x86_64"
-    ;;
-  "SVProgressHUD.xcframework/ios-arm64")
-    echo "arm64"
-    ;;
-  "SVProgressHUD.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
   "url_launcher_ios.xcframework/ios-arm64")
@@ -232,7 +220,6 @@ install_xcframework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/flutter_boost
 install_xcframework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/path_provider_foundation.xcframework" "FlutterGamesKit" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/shared_preferences_foundation.xcframework" "FlutterGamesKit" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/share_plus.xcframework" "FlutterGamesKit" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
-install_xcframework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/SVProgressHUD.xcframework" "FlutterGamesKit" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/url_launcher_ios.xcframework" "FlutterGamesKit" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../FlutterGamesKit/Frameworks/webview_flutter_wkwebview.xcframework" "FlutterGamesKit" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 

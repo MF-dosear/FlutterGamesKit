@@ -27,8 +27,9 @@ Pod::Spec.new do |s|
 
   s.source_files = ['FlutterGamesKit/Classes/**/*']
   
-  s.vendored_frameworks = ['FlutterGamesKit/Frameworks/*.framework']
+  s.vendored_frameworks = ['FlutterGamesKit/Frameworks/*.xcframework']
   
   s.dependency 'AFNetworking','~> 4.0.1'
+  s.dependency 'SVProgressHUD','~> 2.3.1'
   
 end

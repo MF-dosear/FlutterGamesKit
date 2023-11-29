@@ -26,11 +26,14 @@
     "FlutterGamesKit/Classes/**/*"
   ],
   "vendored_frameworks": [
-    "FlutterGamesKit/Frameworks/*.framework"
+    "FlutterGamesKit/Frameworks/*.xcframework"
   ],
   "dependencies": {
     "AFNetworking": [
       "~> 4.0.1"
+    ],
+    "SVProgressHUD": [
+      "~> 2.3.1"
     ]
   }
 }

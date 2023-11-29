@@ -5,6 +5,5 @@ ${PODS_XCFRAMEWORKS_BUILD_DIR}/FlutterGamesKit/flutter_boost.framework
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/FlutterGamesKit/path_provider_foundation.framework
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/FlutterGamesKit/shared_preferences_foundation.framework
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/FlutterGamesKit/share_plus.framework
-${PODS_XCFRAMEWORKS_BUILD_DIR}/FlutterGamesKit/SVProgressHUD.framework
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/FlutterGamesKit/url_launcher_ios.framework
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/FlutterGamesKit/webview_flutter_wkwebview.framework
