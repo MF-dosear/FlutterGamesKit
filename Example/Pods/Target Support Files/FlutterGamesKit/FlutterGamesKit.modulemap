@@ -1,0 +1,6 @@
+framework module FlutterGamesKit {
+  umbrella header "FlutterGamesKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_FlutterGamesKit_Example {
+  umbrella header "Pods-FlutterGamesKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
