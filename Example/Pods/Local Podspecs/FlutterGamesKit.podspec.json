@@ -25,15 +25,12 @@
   "source_files": [
     "FlutterGamesKit/Classes/**/*"
   ],
+  "vendored_frameworks": [
+    "FlutterGamesKit/Frameworks/*.framework"
+  ],
   "dependencies": {
     "AFNetworking": [
       "~> 4.0.1"
     ]
-  },
-  "subspecs": [
-    {
-      "name": "Main",
-      "vendored_frameworks": "FlutterGamesKit/Frameworks/*.framework"
-    }
-  ]
+  }
 }
