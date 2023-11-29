@@ -25,9 +25,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = ['FlutterGamesKit/Classes/**/*']
+  s.source_files = ['FlutterGameKit/Classes/**/*']
   
-  s.vendored_frameworks = ['FlutterGamesKit/Frameworks/*.framework']
+  s.vendored_frameworks = ['FlutterGameKit/Frameworks/*.framework']
   
   s.dependency 'AFNetworking','~> 4.0.1'
   
